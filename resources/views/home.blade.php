@@ -1,9 +1,12 @@
 <x-layout>
-    <div class="bg-gray-900 text-white">
-        <div class="container mx-auto py-20 px-4 sm:px-6 lg:px-8">
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4">Welcome to Your Website</h1>
-          <p class="text-lg sm:text-xl md:text-2xl leading-relaxed mb-8">A brief description or slogan can go here.</p>
-          <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Get Started</a>
-        </div>
+  <div class="relative bg-cover bg-center w-100 h-screen">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute inset-0 flex items-center justify-center">
+      <div class="text-center">
+        <h1 class="text-4xl md:text-6xl font-bold text-white">Your Hero Text Here</h1>
+        <p class="mt-4 text-lg md:text-xl text-white">Your hero subtext here</p>
       </div>
+    </div>
+  </div>
+  
 </x-layout>

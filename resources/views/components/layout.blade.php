@@ -9,12 +9,8 @@
 </head>
 <body>
     <!--Navbar Start-->
-
-
-    
-
-<nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
-    <div  class=" py-2 max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
+<nav class="fixed top-0 w-full z-50 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+    <div  class=" py-2  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
             <div class="flex space-x-4 ml-auto mx-20 sm:justify-center ">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                     <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
@@ -38,7 +34,7 @@
     </div>
     <div class="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-5 px-20  bg-coreblue">
         
-      <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-darkblue">EAPCI</span>
       </a>
       <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
@@ -49,20 +45,21 @@
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
         <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
-          <li>
-            <a href="#" class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Courses</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-          </li>
+            <li>
+                <a href="/" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-transparent transition-transform transform-gpu hover:scale-105 {{ request()->is('/') ? 'text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }}">Home</a>
+            </li>
+            <li>
+                <a href="courses" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-transparent transition-transform transform-gpu hover:scale-105 {{ request()->is('courses') ? 'text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }}">Courses</a>
+            </li>
+            <li>
+                <a href="about" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-transparent transition-transform transform-gpu hover:scale-105 {{ request()->is('about') ? 'text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }}">About Us</a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-transparent transition-transform transform-gpu hover:scale-105 {{ request()->is('contact') ? 'text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }}">Contact</a>
+            </li>
         </ul>
-      </div>
+    </div>
+    
     </div>
   </nav>
   
@@ -76,8 +73,8 @@
     <!--Footer Start-->
 
 
-    <footer class="bg-coreblue dark:bg-gray-900 fixed bottom-0 left-0 z-20 w-full" >
-        <div  class="max-w-screen-xxl flex flex-wrap items-center justify-center mx-auto py-5  mt-4 "> 
+    <footer class="bg-coreblue dark:bg-gray-900 bottom-0 left-0 z-20 w-full" >
+        <div  class="max-w-screen-xxl flex flex-wrap items-center justify-center mx-auto py-5"> 
             <span class="text-sm text-darkblue sm:text-center dark:text-gray-400">East African Professional Counselling Institute LTD
             </span>
         </div>
