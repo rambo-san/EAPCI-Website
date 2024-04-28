@@ -1,12 +1,23 @@
 <x-layout>
-  <div class="relative bg-cover bg-center w-100 h-screen">
-    <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="absolute inset-0 flex items-center justify-center">
-      <div class="text-center">
-        <h1 class="text-4xl md:text-6xl font-bold text-white">Your Hero Text Here</h1>
-        <p class="mt-4 text-lg md:text-xl text-white">Your hero subtext here</p>
+  <div class="w-screen relative bg-cover bg-center h-full ">
+    <div class="absolute  bg-bgwhite">
+    <div class="absolute  w-screen">
+      <div class="text-center h-2/3 ">
+        <h1 class="text-4xl md:text-6xl font-bold text-black mt-40 w-2/3 ">East African Professional Counselling Institute</h1>
+        <p class="mt-4 text-lg md:text-xl text-black">“Life skills at hand”</p>
+        <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="" class="w-screen mt-80 ">
       </div>
+        <div class="flex justify-center bg-headblue h-full ">
+          <span class="text-2xl" >lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </span>        
+        </div>
     </div>
+  </div>
   </div>
   
 </x-layout>
