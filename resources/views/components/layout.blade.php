@@ -46,16 +46,16 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
         <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <li>
-                <a href="/" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-transparent transition-transform transform-gpu hover:scale-105 {{ request()->is('/') ? 'text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }}">Home</a>
+                <a href="/" class="block py-2 px-3 md:p-0 text-gray-900 rounded transition-transform {{ request()->is('/') ? 'sm:text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105">Home</a>
             </li>
             <li>
-                <a href="courses" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-transparent transition-transform transform-gpu hover:scale-105 {{ request()->is('courses') ? 'text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }}">Courses</a>
+                <a href="courses" class="block py-2 px-3 md:p-0 text-gray-900 rounded transition-transform {{ request()->is('courses') ? 'sm:text-blue-700' : 'md:bg-transparent md:hover:text-blue- dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105">Courses</a>
             </li>
             <li>
-                <a href="about" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-transparent transition-transform transform-gpu hover:scale-105 {{ request()->is('about') ? 'text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }}">About Us</a>
+                <a href="about" class="block py-2 px-3 md:p-0 text-gray-900 rounded transition-transform {{ request()->is('about') ? 'sm:text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105">About Us</a>
             </li>
             <li>
-                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-transparent transition-transform transform-gpu hover:scale-105 {{ request()->is('contact') ? 'text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }}">Contact</a>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded transition-transform {{ request()->is('contact') ? 'sm:text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105">Contact</a>
             </li>
         </ul>
     </div>
@@ -81,12 +81,6 @@
         <hr class="border-b-4 border-darkblue sm:mx-auto dark:border-darkblue" />
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
-              <div class="mb-6 md:mb-0">
-                  <a href="https://flowbite.com/" class="flex items-center">
-                      <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
-                      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-                  </a>
-              </div>
               <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                   <div>
                       <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
@@ -122,6 +116,19 @@
                       </ul>
                   </div>
               </div>
+              <div class="mb-6 w-1/4 md:mb-0">
+                        <h2 class="mb-3 text-xl font-bold text-darkblue uppercase dark:text-white">Contact</h2>
+                        <ul class="text-darkblue dark:text-gray-400 font-medium sm:block mb-5">
+                            <li>
+                                <span>
+                                    Plot 73 Buganda Road,
+                                    P.O. Box 124370, Kampala(U) Jowiro House 4th Floor Room 404 ,Above Kampala Medical Chambers Hospital</span>
+                            </li>
+                            <li>
+                                <span>Phone: +256700300102/ +256777025320</span>
+                            </li>
+                        </ul>
+            </div>
           </div>
           
           
