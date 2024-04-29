@@ -7,7 +7,7 @@
     @vite(['resources/css/app.css','resources/js/app.js'])
 
 </head>
-<body>
+<body class="overflow-x-hidden"> {{--  add overflow-x-hidden to prevent horizontal scrolling --}}
     <!--Navbar Start-->
 <nav class="fixed top-0 w-full z-50 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
     <div  class=" py-2  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
@@ -73,7 +73,7 @@
     <!--Footer Start-->
 
 
-    <footer class="bg-coreblue dark:bg-gray-900 bottom-0 left-0 z-20 w-full" >
+    <footer class="bg-coreblue dark:bg-gray-900 bottom-0 left-0 z-20 w-screen relative " >
         <div  class="max-w-screen-xxl flex flex-wrap items-center justify-center mx-auto py-5"> 
             <span class="text-sm text-darkblue sm:text-center dark:text-gray-400">East African Professional Counselling Institute LTD
             </span>
