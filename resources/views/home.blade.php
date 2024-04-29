@@ -23,29 +23,41 @@
           <div class="w-1/2 h-full">
             <img src="{{asset('images/svg/bannerimg3.svg')}}" alt="" class="w-1/2 h-1/2">
             </div>
-            <div class="w-1/2 h-full flex pr-32">
-                <p class="text-2xl py-6 flex-1 text-justify">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            <div class="w-1/2 h-full pr-32">
+              <h1 class="flex flex-left text-4xl  text-center" >What is EAPCI?</h1>
+                <p class="text-xl py-6 flex-1 text-justify">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
+                <a href="about" class="flex-left bg-darkblue"><button>Learn More</button></a>
             </div>
         </div>
     </div>
   {{-- briefend --}}  
   
  {{-- carousalmv --}}
-<div id="animation-carousel" class="relative w-full  border-b-8 border-darkblue" data-carousel="static">
+<div id="animation-carousel" class="relative  w-full  border-b-8 border-darkblue" data-carousel="static">
   <!-- Carousel wrapper -->
   <div class="relative w-full h-96 md:h-svh overflow-hidden rounded-lg">
-      <!-- Item 1 -->
-      <div class="hidden duration-200 ease-linear" data-carousel-item>
-          <img src="{{asset('images/carousal/caro1.jpg')}}" class="filter grayscale absolute block w-full h-full object-cover top-0 left-0" alt="...">
-      </div>
-      <!-- Item 2 -->
-      <div class="hidden duration-200 ease-linear" data-carousel-item>
-          <img src="{{asset('images/carousal/caro2.jpg')}}" class="filter grayscale absolute block w-full h-full object-cover top-0 left-0" alt="...">
-      </div>
+    <!-- Item 1 -->
+    <div class="hidden duration-200 ease-linear" data-carousel-item>
+        <img src="{{asset('images/carousal/caro1.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale" alt="...">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
+            <h1 class="text-4xl text-center">Our Vision</h1>
+            <p class="w-3/4 text-2xl text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+    <!-- Item 2 -->
+    <div class="hidden duration-200 ease-linear" data-carousel-item>
+        <img src="{{asset('images/carousal/caro2.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale" alt="...">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
+            <h1 class="text-4xl text-center">Our Mission</h1>
+            <p class="w-3/4 text-2xl text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+    </div>
+</div>
+
       <!-- Slider controls -->
       <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
           <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -66,6 +78,22 @@
   </div>
 </div>
 {{-- carousalmv --}}
+
+{{-- shortcourse brief --}}
+<div class="flex justify bg-bgwhite h-max w-full pt-10 border-b-8 border-darkblue">  
+  <div class="flex flex-row w-full justify-between pl-32 pb-32">
+      <div class="w-1/2 h-full ">
+        <h1 class="flex flex-left text-4xl  text-center" >Short Courses</h1>
+          <p class="text-xl py-6 flex-1 text-justify">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+          <a href="shortcourses" class="flex-left bg-darkblue"><button>Learn More</button></a>
+      </div>
+  </div>
+</div>
+{{-- shortcourse brief --}}
 
 <script>
   setInterval(() => {
