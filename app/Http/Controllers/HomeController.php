@@ -6,9 +6,11 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    function index(){
-        return view('home');
-    }
+    public function index()
+{
+    $title = 'Home';
+    return view('home', compact('title'));
+}
     function about(){
         return view('aboutus');
     }

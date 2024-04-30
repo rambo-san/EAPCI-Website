@@ -3,13 +3,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EAPCI</title>
+    <title> @yield('title') </title>
     @vite(['resources/css/app.css','resources/js/app.js'])
-
+    <link rel="icon" href="{{asset('images/png/logo.png')}}" type="image/x-icon">
 </head>
 <body class="overflow-x-hidden"> {{--  add overflow-x-hidden to prevent horizontal scrolling --}}
     <!--Navbar Start-->
-<nav class="fixed top-0 w-full z-50 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+<nav class="sticky top-0 w-full z-50 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
     <div  class=" py-2  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
             <div class="flex space-x-4 ml-auto mx-20 sm:justify-center ">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -79,8 +79,8 @@
             </span>
         </div>
         <hr class="border-b-8 border-darkblue sm:mx-auto dark:border-darkblue" />
-        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-            <div class="md:flex md:justify-between">
+        <div class="justify-between w-full p-4 py-6 lg:py-8">
+            <div class="mx-10 md:mx-20 md:flex md:justify-between">
               <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                   <div>
                       <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
@@ -116,17 +116,14 @@
                       </ul>
                   </div>
               </div>
-              <div class="mb-6 w-1/4 md:mb-0">
+              <div class="my-6 w-full md:ml-10 lg:w-max  md:my-0 text-justify">
                         <h2 class="mb-3 text-xl font-bold text-darkblue uppercase dark:text-white">Contact</h2>
                         <ul class="text-darkblue dark:text-gray-400 font-medium sm:block mb-5">
-                            <li>
-                                <span>
-                                    Plot 73 Buganda Road,
-                                    P.O. Box 124370, Kampala(U) Jowiro House 4th Floor Room 404 ,Above Kampala Medical Chambers Hospital</span>
-                            </li>
-                            <li>
-                                <span>Phone: +256700300102/ +256777025320</span>
-                            </li>
+                            <li><span>Plot 73 Buganda Road,</span></li>
+                            <li><span>P.O. Box 124370, Kampala(U) Jowiro House 4th Floor Room 404 ,</span></li>
+                            <li><span>Above Kampala Medical Chambers Hospital</span></li>
+                            <li><span>Email: something@something.org</span></li>
+                            <li><span>Phone: +256700300102/ +256777025320</span></li>
                         </ul>
             </div>
           </div>
