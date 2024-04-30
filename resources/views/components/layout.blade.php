@@ -32,7 +32,7 @@
                 </a>
             </div>
     </div>
-    <div class="max-w-screen-xxl flex flex-wrap items-center justify-between mx-auto p-5 px-20  bg-coreblue">
+    <div class="flex flex-wrap items-center justify-between mx-auto p-5 px-20  bg-coreblue">
         
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-darkblue">EAPCI</span>
@@ -74,7 +74,7 @@
 
 
     <footer class="bg-coreblue dark:bg-gray-900 bottom-0 left-0 z-20 w-screen relative " >
-        <div  class="max-w-screen-xxl flex flex-wrap items-center justify-center mx-auto py-5"> 
+        <div  class="flex flex-wrap items-center justify-center mx-auto py-5"> 
             <span class="text-sm text-darkblue sm:text-center dark:text-gray-400">East African Professional Counselling Institute LTD
             </span>
         </div>
@@ -134,7 +134,7 @@
           
           </div>
         </div>
-        <div  class="max-w-screen-xxl flex flex-wrap items-center justify-center mx-auto p-1 bg-headblue mt-4 sm:justify-center sm:mt-0"> 
+        <div  class="flex flex-wrap items-center justify-center mx-auto p-1 bg-headblue mt-4 sm:justify-center sm:mt-0"> 
             <span class="text-sm text-darkblue sm:text-center dark:text-gray-400">© 2024 <a href="/" class="hover:underline">EAPCI</a>. All Rights Reserved.
             </span>
         </div>
