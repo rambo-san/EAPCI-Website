@@ -14,44 +14,44 @@
       <a href="#course10" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-2xl text-xl">Teamwork</a>
   </div>
 
-  <div class="mt-32 mx-20">
-      <div id="course1"  class="w-full h-1/4 pt-20  bg-coreblue my-5" >
+  <div class="mx-20">
+      <div id="course1"  class="w-full h-1/4 pt-32  bg-coreblue my-5" >
           <h2 class="text-xl font-bold">Time Management</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course2"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course2"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Effective Communication</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course3"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course3"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Stress Management</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course4"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course4"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Problem Solving</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course5"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course5"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Decision Making</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course6"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course6"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Leadership Skills</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course7"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course7"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Emotional Intelligence</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course8"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course8"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Adaptability</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course9"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course9"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Creativity</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>
-      <div id="course10"  class="w-full h-1/4 pt-20  bg-coreblue my-5">
+      <div id="course10"  class="w-full h-1/4 pt-32  bg-coreblue my-5">
           <h2 class="text-xl font-bold">Teamwork</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
       </div>

@@ -9,7 +9,7 @@
 </head>
 <body class="overflow-x-hidden"> {{--  add overflow-x-hidden to prevent horizontal scrolling --}}
     <!--Navbar Start-->
-<nav class="sticky top-0 w-full z-50 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+<nav class=" sticky top-0 w-full z-20 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
     <div  class=" py-2  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
             <div class="flex space-x-4 ml-auto mx-20 sm:justify-center ">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -67,7 +67,32 @@
     <!--Navbar End-->
 
     <!--Body Start-->
+        {{-- Scroll to Top Button --}}
+            <button onclick="scrollToTop()" class="fixed z-50 bottom-4 right-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out hidden" id="moveToTopButton">
+                Move to Top
+            </button>
+        {{-- End Scroll to Top Button --}}
+
     {{$slot}}
+
+        {{-- Script for scroll --}}
+            <script>
+                window.onscroll = function() {scrollFunction()};
+
+                function scrollFunction() {
+                    var button = document.getElementById('moveToTopButton');
+                    if (window.scrollY > 20) {
+                        button.classList.remove('hidden');
+                    } else {
+                        button.classList.add('hidden');
+                    }
+                }
+
+                function scrollToTop() {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            </script>
+        {{-- End Script for scroll --}}
     <!--Body End-->
 
     <!--Footer Start-->
