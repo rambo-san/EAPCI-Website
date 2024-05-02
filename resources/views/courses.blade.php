@@ -29,16 +29,16 @@
   {{--Courses as Button Start --}}
 
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-20 mb-10 mx-10 md:mx-20">
-      <a href="#course1" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Time Management</a>
-      <a href="#course2" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Effective Communication</a>
-      <a href="#course3" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Stress Management</a>
-      <a href="#course4" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Problem Solving</a>
-      <a href="#course5" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Decision Making</a>
-      <a href="#course6" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Leadership Skills</a>
-      <a href="#course7" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Emotional Intelligence</a>
-      <a href="#course8" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Adaptability</a>
-      <a href="#course9" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Creativity</a>
-      <a href="#course10" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite">Teamwork</a>
+      <a href="#course1" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Time Management</a>
+      <a href="#course2" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Effective Communication</a>
+      <a href="#course3" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Stress Management</a>
+      <a href="#course4" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Problem Solving</a>
+      <a href="#course5" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Decision Making</a>
+      <a href="#course6" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Leadership Skills</a>
+      <a href="#course7" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Emotional Intelligence</a>
+      <a href="#course8" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Adaptability</a>
+      <a href="#course9" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Creativity</a>
+      <a href="#course10" class="bg-darkblue border-4 border-coreblue rounded-xl py-4 px-8 text-bgwhite text-base sm:text-lg md:text-xl font-bold   hover:text-darkblue hover:bg-bgwhite font-pop active:text-activeblack">Teamwork</a>
   </div>
     {{--Courses as Button End --}}
     

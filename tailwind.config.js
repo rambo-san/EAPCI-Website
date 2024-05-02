@@ -16,6 +16,7 @@ module.exports = {
         headblue: '#24B4E8',
         coreblue: '#9ADBEF',
         darkblue: '#2C6173',
+        activeblue: '#6CBAD1',
         activeblack: '#1E363F',
         bgwhite: '#FCFCFA',
       },

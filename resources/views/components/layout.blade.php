@@ -47,16 +47,16 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
         <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <li>
-                <a href="/" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('/') ? 'sm:text-activeblack border-b-2 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Home</a>
+                <a href="/" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('/') ? 'sm:text-activeblack border-b-2 border-activeblack sm:shadow-0' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Home</a>
             </li>
             <li>
-                <a href="services" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('services') ? 'sm:text-activeblack border-b-2 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Services</a>
+                <a href="services" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('services') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Services</a>
             </li>
             <li>
-                <a href="courses" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('courses') ? 'sm:text-activeblack border-b-2 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Courses</a>
+                <a href="courses" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('courses') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Courses</a>
             </li>
             <li>
-                <a href="about" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('about') ? 'sm:text-activeblack border-b-2 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">About Us</a>
+                <a href="about" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('about') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">About Us</a>
             </li>
             
         </ul>
