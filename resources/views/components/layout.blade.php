@@ -6,10 +6,11 @@
     <title> @yield('title') </title>
     @vite(['resources/css/app.css','resources/js/app.js'])
     <link rel="icon" href="{{asset('images/png/logo.png')}}" type="image/x-icon">
+
 </head>
 <body class="overflow-x-hidden"> {{--  add overflow-x-hidden to prevent horizontal scrolling --}}
     <!--Navbar Start-->
-<nav class=" sticky top-0 w-full z-40 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+<nav class=" sticky top-0 w-full z-40 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700" id="navbar">
     <div  class=" py-2  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
             <div class="flex space-x-4 ml-auto mx-20 sm:justify-center ">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -35,7 +36,7 @@
     <div class="flex flex-wrap items-center justify-between mx-auto p-5 px-20  bg-coreblue">
         
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-darkblue">EAPCI</span>
+          <span class="self-center text-3xl font-bold whitespace-nowrap text-darkblue font-pop">EAPCI</span>
       </a>
       <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-solid-bg" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
@@ -46,17 +47,18 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
         <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <li>
-                <a href="/" class="block py-2 px-3 md:p-0 text-gray-900 rounded transition-transform {{ request()->is('/') ? 'sm:text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105">Home</a>
+                <a href="/" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('/') ? 'sm:text-activeblack border-b-2 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Home</a>
             </li>
             <li>
-                <a href="courses" class="block py-2 px-3 md:p-0 text-gray-900 rounded transition-transform {{ request()->is('courses') ? 'sm:text-blue-700' : 'md:bg-transparent md:hover:text-blue- dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105">Courses</a>
+                <a href="services" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('services') ? 'sm:text-activeblack border-b-2 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Services</a>
             </li>
             <li>
-                <a href="about" class="block py-2 px-3 md:p-0 text-gray-900 rounded transition-transform {{ request()->is('about') ? 'sm:text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105">About Us</a>
+                <a href="courses" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('courses') ? 'sm:text-activeblack border-b-2 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">Courses</a>
             </li>
             <li>
-                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded transition-transform {{ request()->is('contact') ? 'sm:text-blue-700' : 'md:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105">Contact</a>
+                <a href="about" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('about') ? 'sm:text-activeblack border-b-2 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent hover:scale-105 font-pop">About Us</a>
             </li>
+            
         </ul>
     </div>
     
@@ -68,7 +70,7 @@
 
     <!--Body Start-->
         {{-- Scroll to Top Button --}}
-        <button onclick="scrollToTop()" id="moveToTopButton" class="fixed z-50 bottom-10 right-10 bg-white p-2 rounded-full shadow-md transition-opacity opacity-70 hover:opacity-100 focus:outline-none" aria-label="Scroll to top">
+        <button onclick="scrollToTop()" id="moveToTopButton" class="fixed z-50 bottom-10 right-10 bg-white p-2 rounded-full shadow-md transition-opacity opacity-70 hover:opacity-100 focus:outline-none hidden" aria-label="Scroll to top">
             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348.47 348.47" class=" w-14 h-14">
                 <circle cx="174.23" cy="174.23" r="165.23" style="fill: #2C6173; stroke: #2C6173; stroke-miterlimit: 10; stroke-width: 18px;"/>
                 <path d="m152.29,86.3h48.44v170.31c0,13.37-10.85,24.22-24.22,24.22h0c-13.37,0-24.22-10.85-24.22-24.22V86.3h0Z" style="fill: #fff; stroke-width: 0px;"/>
@@ -89,10 +91,13 @@
 
                 function scrollFunction() {
                     var button = document.getElementById('moveToTopButton');
+                    var nav = document.getElementById('navbar');
                     if (window.scrollY > 20) {
                         button.classList.remove('hidden');
+                        nav.classList.add('shadow-xl');
                     } else {
                         button.classList.add('hidden');
+                        nav.classList.remove('shadow-xl');
                     }
                 }
 
@@ -110,7 +115,7 @@
 
     <footer class="bg-coreblue dark:bg-gray-900 bottom-0 left-0 z-20 w-screen relative " >
         <div  class="flex flex-wrap items-center justify-center mx-auto py-5"> 
-            <span class="text-sm text-darkblue sm:text-center dark:text-gray-400">East African Professional Counselling Institute LTD
+            <span class="text-sm text-darkblue sm:text-center dark:text-gray-400 font-pop">East African Professional Counselling Institute LTD
             </span>
         </div>
         <hr class="border-b-8 border-darkblue sm:mx-auto dark:border-darkblue" />
@@ -151,7 +156,7 @@
                       </ul>
                   </div>
               </div>
-              <div class="my-6 w-full md:ml-10 lg:w-max  md:my-0 text-justify">
+              <div class="my-6 w-full md:ml-10 lg:w-max  md:my-0 text-justify font-pop">
                         <h2 class="mb-3 text-xl font-bold text-darkblue uppercase dark:text-white">Contact</h2>
                         <ul class="text-darkblue dark:text-gray-400 font-medium sm:block mb-5">
                             <li><span>Plot 73 Buganda Road,</span></li>
@@ -166,8 +171,8 @@
           
           </div>
         </div>
-        <div  class="flex flex-wrap items-center justify-center mx-auto p-1 bg-headblue mt-4 sm:justify-center sm:mt-0"> 
-            <span class="text-sm text-darkblue sm:text-center dark:text-gray-400">© 2024 <a href="/" class="hover:underline">EAPCI</a>. All Rights Reserved.
+        <div  class="flex flex-wrap items-center justify-center mx-auto p-1 bg-headblue mt-4 sm:justify-center sm:mt-0 font-yesava"> 
+            <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2024 <a href="/" class="hover:underline">EAPCI</a>. All Rights Reserved.
             </span>
         </div>
     </footer> 

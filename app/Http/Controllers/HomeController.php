@@ -17,5 +17,8 @@ class HomeController extends Controller
     function courses(){
         return view('courses');
     }
+    function services(){
+        return view('services');
+    }
 
 }

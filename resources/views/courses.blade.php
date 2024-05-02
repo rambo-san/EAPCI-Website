@@ -4,7 +4,7 @@
   <div class="w-full relative bg-cover h-max ">
     <div class=" bg-bgwhite">
       <div class=" text-center h-2/3 right-2">
-        <h1 class="text-4xl md:text-6xl font-bold text-black pt-20  w-full right-2">Our Services</h1>
+        <h1 class="text-4xl md:text-6xl font-bold text-black pt-20  w-full right-2 font-serif">Courses</h1>
           <div class="flex justify-left">
             <div class=" md:w-1/2"><img src="{{asset('images/svg/coursebanner.svg')}}" alt="" class=" self-center md:left-20 py-10"></div>
           </div>
