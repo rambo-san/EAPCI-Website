@@ -9,7 +9,7 @@
 </head>
 <body class="overflow-x-hidden"> {{--  add overflow-x-hidden to prevent horizontal scrolling --}}
     <!--Navbar Start-->
-<nav class=" sticky top-0 w-full z-20 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+<nav class=" sticky top-0 w-full z-40 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
     <div  class=" py-2  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
             <div class="flex space-x-4 ml-auto mx-20 sm:justify-center ">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -68,9 +68,17 @@
 
     <!--Body Start-->
         {{-- Scroll to Top Button --}}
-            <button onclick="scrollToTop()" class="fixed z-50 bottom-4 right-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out hidden" id="moveToTopButton">
-                Move to Top
-            </button>
+        <button onclick="scrollToTop()" id="moveToTopButton" class="fixed z-50 bottom-10 right-10 bg-white p-2 rounded-full shadow-md transition-opacity opacity-70 hover:opacity-100 focus:outline-none" aria-label="Scroll to top">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348.47 348.47" class=" w-14 h-14">
+                <circle cx="174.23" cy="174.23" r="165.23" style="fill: #2C6173; stroke: #2C6173; stroke-miterlimit: 10; stroke-width: 18px;"/>
+                <path d="m152.29,86.3h48.44v170.31c0,13.37-10.85,24.22-24.22,24.22h0c-13.37,0-24.22-10.85-24.22-24.22V86.3h0Z" style="fill: #fff; stroke-width: 0px;"/>
+                <g>
+                    <path d="m179.44,61.03h48.01c.12,0,.21.1.21.21v99.89c0,13.37-10.85,24.22-24.22,24.22h0c-13.37,0-24.22-10.85-24.22-24.22V61.24c0-.12.1-.21.21-.21Z" transform="translate(-27.52 179.94) rotate(-45)" style="fill: #fff; stroke-width: 0px;"/>
+                    <path d="m149.58,61.03h0c13.37,0,24.22,10.85,24.22,24.22v99.89c0,.12-.1.21-.21.21h-48.01c-.12,0-.21-.1-.21-.21v-99.89c0-13.37,10.85-24.22,24.22-24.22Z" transform="translate(168.25 316.06) rotate(-135)" style="fill: #fff; stroke-width: 0px;"/>
+                </g>
+            </svg>
+        </button>
+        
         {{-- End Scroll to Top Button --}}
 
     {{$slot}}
@@ -91,6 +99,8 @@
                 function scrollToTop() {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
+
+
             </script>
         {{-- End Script for scroll --}}
     <!--Body End-->
