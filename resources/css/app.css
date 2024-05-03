@@ -3,3 +3,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide the default scrollbar */
+body::-webkit-scrollbar {
+    width: 20px;
+}
+    
+/* Track */
+body::-webkit-scrollbar-track {
+    display: none;
+    
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #1E363F;
+    border-radius: 16px 0px 0px 16px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #2C6173;
+}
+
