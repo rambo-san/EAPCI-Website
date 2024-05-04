@@ -11,8 +11,7 @@
     
 /* Track */
 ::-webkit-scrollbar-track {
-   display: none;
-    
+    background: linear-gradient(to top, #9ADBEF, #FFFFFF);
 }
 
 /* Handle */
@@ -24,5 +23,8 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #2C6173;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #1E363F;
 }
 
