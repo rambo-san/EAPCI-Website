@@ -23,7 +23,7 @@
   {{-- briefstart --}}
       <div class="flex justify bg-headblue h-max w-full py-10 md:p-10 border-b-8 border-darkblue pt-20">  
         <div class="flex flex-col w-full justify-between lg:flex-row">
-          <div class="bg-cover bg-center h-96 mx-10 lg:w-1/2 lg:h-full" style="background-image: url('{{ asset('images/png/broken_image.png') }}');">< </div>
+          <div class="bg-cover bg-center h-96 mx-10 lg:w-1/2 lg:h-full" style="background-image: url('{{ asset('images/png/broken_image.png') }}');"> </div>
             <div class="h-max p-10 lg:w-1/2">
               <h1 class="lg:text-left text-4xl  text-center font-yesava" >What is EAPCI?</h1>
                 <p class="text-lg pt-6 flex-1 text-justify font-pop">lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
