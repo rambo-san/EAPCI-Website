@@ -72,7 +72,7 @@
 
   {{--Courses as Button Start --}}
 <div class="h-max w-full px-10 md:px-20 font-pop">
-  <h1 class="lg:text-left text-3xl md:text-4xl text-center font-yesava py-5" >Courses Offered</h1>
+  <h1 class="lg:text-left text-3xl md:text-4xl text-center font-yesava py-5" >Courses Offered by us</h1>
   <div  class="flex h-max text-justify" >
     <p class="text-lg flex-1 text-justify font-pop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac elit non quam auctor fringilla. Ut convallis arcu nec dui molestie lacinia. Proin ut justo nec felis eleifend aliquam.</p>
   </div>
