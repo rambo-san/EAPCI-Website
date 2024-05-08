@@ -47,16 +47,16 @@
       <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
         <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
             <li>
-                <a href="/" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('/') ? 'sm:text-activeblack border-b-2 border-activeblack sm:shadow-0' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent md:hover:scale-105 font-pop">Home</a>
+                <a href="/" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('/') ? 'sm:text-activeblack border-b-2 border-activeblack sm:shadow-0' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent md:hover:scale-105 duration-300 ease-in-out font-pop">Home</a>
             </li>
             <li>
-                <a href="services" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('services') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent md:hover:scale-105 font-pop">Services</a>
+                <a href="services" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('services') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent md:hover:scale-105 duration-300 ease-in-out font-pop">Services</a>
             </li>
             <li>
-                <a href="courses" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('courses') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent md:hover:scale-105 font-pop">Courses</a>
+                <a href="courses" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('courses') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent md:hover:scale-105 duration-300 ease-in-out font-pop">Courses</a>
             </li>
             <li>
-                <a href="about" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('about') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent md:hover:scale-105 font-pop">About Us</a>
+                <a href="about" class="block py-2 px-3 md:p-0 text-darkblue text-base font-bold  transition-transform {{ request()->is('about') ? 'sm:text-activeblack border-b-2 sm:shadow-0 border-activeblack' : 'md:bg-transparent md:hover:text-black dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent' }} hover:bg-transparent md:hover:scale-105 duration-300 ease-in-out font-pop">About Us</a>
             </li>
             
         </ul>
@@ -70,7 +70,7 @@
 
     <!--Body Start-->
         {{-- Scroll to Top Button --}}
-        <button onclick="scrollToTop()" id="moveToTopButton" class="fixed z-50 bottom-10 right-10 bg-white p-2 rounded-full shadow-md transition-opacity opacity-70 hover:opacity-100 focus:outline-none hidden" aria-label="Scroll to top">
+        <button onclick="scrollToTop()" id="moveToTopButton" class="fixed z-50 bottom-10 right-10 bg-white p-2 rounded-full shadow-md transition-opacity opacity-70 hover:opacity-100 focus:outline-none focus:scale-105 hidden duration-500 ease-in-out" aria-label="Scroll to top">
             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348.47 348.47" class=" w-14 h-14">
                 <circle cx="174.23" cy="174.23" r="165.23" style="fill: #2C6173; stroke: #2C6173; stroke-miterlimit: 10; stroke-width: 18px;"/>
                 <path d="m152.29,86.3h48.44v170.31c0,13.37-10.85,24.22-24.22,24.22h0c-13.37,0-24.22-10.85-24.22-24.22V86.3h0Z" style="fill: #fff; stroke-width: 0px;"/>

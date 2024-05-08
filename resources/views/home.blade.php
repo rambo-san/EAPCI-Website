@@ -1,6 +1,5 @@
 <x-layout>
   @section('title') {{'EAPCI-Home'}} @endsection
-
   {{-- mainstart --}}
   <div class="w-full relative bg-cover bg-center h-max ">
     <div class=" bg-bgwhite">
@@ -31,7 +30,7 @@
                 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 </p>
-                <a href="about"><button class="bg-coreblue border-4 border-bgwhite rounded-xl p-4 text-darkblue text-xl font-bold  mt-10 max-w-max  hover:text-bgwhite hover:bg-darkblue font-pop">Know More</button>
+                <a href="about"><button class="bg-coreblue border-4 border-bgwhite rounded-xl p-4 text-darkblue text-xl font-bold  mt-10 max-w-max  hover:text-bgwhite hover:bg-darkblue duration-300 ease-in-out font-pop">Know More</button>
                 </a>
             </div>
         </div>
@@ -44,18 +43,18 @@
   <div class="relative w-full h-96 md:h-svh overflow-hidden rounded-lg">
     <!-- Item 1 -->
     <div class="hidden duration-200 ease-linear" data-carousel-item>
-        <img src="{{asset('images/carousal/caro1.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale blur-sm brightness-125" alt="...">
+        <img src="{{asset('images/carousal/caro1.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale blur-sm" alt="...">
         <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-            <h1 class="text-5xl text-center font-yesava text-headblue drop-shadow-md">Our Vision</h1>
-            <p class="w-3/4 text-2xl text-center font-yesava text-headblue mt-5 drop-shadow-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h1 class="text-4xl md:text-7xl text-center font-yesava text-bgwhite drop-shadow-md">Our Vision</h1>
+            <p class="w-3/4 text-2xl md:text-3xl text-center font-yesava text-bgwhite mt-5 drop-shadow-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
     </div>
     <!-- Item 2 -->
     <div class="hidden duration-200 ease-linear" data-carousel-item>
-        <img src="{{asset('images/carousal/caro2.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale blur-sm brightness-125" alt="...">
+        <img src="{{asset('images/carousal/caro2.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale blur-sm" alt="...">
         <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-            <h1 class="text-5xl text-center font-yesava text-headblue drop-shadow-md">Our Mission</h1>
-            <p class="w-3/4 text-2xl text-center font-yesava text-headblue mt-5 drop-shadow-md ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <h1 class="text-4xl md:text-7xl text-center font-yesava text-bgwhite drop-shadow-md">Our Mission</h1>
+            <p class="w-3/4 text-2xl md:text-3xl text-center font-yesava text-bgwhite mt-5 drop-shadow-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
     </div>
 </div>
@@ -91,7 +90,7 @@
         lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
         </p>
-        <a href="courses" ><button class="bg-darkblue border-4 border-coreblue rounded-xl p-4 text-bgwhite text-xl font-bold  mt-10 max-w-max  hover:text-darkblue hover:bg-bgwhite font-pop">Know More</button>
+        <a href="courses" ><button class="bg-darkblue border-4 border-coreblue rounded-xl p-4 text-bgwhite text-xl font-bold  mt-10 max-w-max  hover:text-darkblue hover:bg-bgwhite duration-300 ease-in-out font-pop">Know More</button>
         </a>
     </div>
     <div class="bg-cover bg-center h-96 mx-10 lg:w-1/2 lg:h-full" style="background-image: url('{{ asset('images/png/broken_image.png') }}');"> </div>

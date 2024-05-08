@@ -26,6 +26,7 @@
     <div class="hidden duration-200 ease-linear opacity-70" data-carousel-item>
       <img src="{{asset('images/coursecarousal/caro5.jpg')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
   </div>
+  <h1 class="relative text-3xl md:text-6xl text-center top-[40%] font-yesava text-white drop-shadow-md mix-blend-luminosity">Upskill and Make a Difference</h1>
 </div>  
 <!-- Slider indicators -->
 <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -58,7 +59,7 @@
 <div class="flex justify bg-bgwhite h-max w-full py-10 md:p-10 border-b-8 border-darkblue">
   <div class="flex flex-col w-full justify-between lg:flex-row">
     <div class="h-max p-10">
-      <h1 class="lg:text-left text-3xl md:text-4xl mb-10 text-center font-yesava" >Upskill and Make a Difference: Explore Our Short Counseling and Clinical Psychology Courses</h1>
+      <h1 class="lg:text-left text-3xl md:text-4xl mb-10 text-center font-yesava" >Explore Our Short Counseling and Clinical Psychology Courses</h1>
         <p class="text-lg flex-1 text-justify font-pop">
           Are you a mental health professional or someone working in a related field seeking to expand your knowledge and skillset? Do you yearn to make a positive impact on the lives of others? Our comprehensive selection of short courses in counseling and clinical psychology provides focused learning opportunities designed to meet your specific needs. Whether you're looking to master core counseling skills, delve deeper into specialized areas like child mental health or trauma-informed care, or gain practical tools for supporting clients facing diverse challenges, we have the right course for you.  Through interactive learning methods and expert instruction, you'll gain the knowledge and confidence to elevate your practice and make a real difference in the lives of those you serve.
         </p>
@@ -76,16 +77,16 @@
   </div>
 </div>
 <div class="hidden md:grid grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mt-20 mb-10 mx-10 md:mx-20 ">
-  <a href="#course1" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Developing Counseling Skills for Professionals: Theory and Practice</a>
-  <a href="#course2" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Mental Health Psycho-social Support (MHPSS)</a>
-  <a href="#course3" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Mental Health, Substance Abuse and Addiction</a>
-  <a href="#course4" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Sexual and Gender Based Violence Prevention Response and Management</a>
-  <a href="#course5" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Marriage and Family Therapy</a>
-  <a href="#course6" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Child and Adolescent Mental Health Challenges and Support Approaches</a>
-  <a href="#course7" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Clinical Counseling Supervision</a>
-  <a href="#course8" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Psycho-Spiritual and Family Therapies</a>
-  <a href="#course9" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Crisis Intervention and Suicide Prevention</a>
-  <a href="#course10" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack">Trauma Informed Care</a>
+  <a href="#course1" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Developing Counseling Skills for Professionals: Theory and Practice</a>
+  <a href="#course2" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Mental Health Psycho-social Support (MHPSS)</a>
+  <a href="#course3" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Mental Health, Substance Abuse and Addiction</a>
+  <a href="#course4" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Sexual and Gender Based Violence Prevention Response and Management</a>
+  <a href="#course5" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Marriage and Family Therapy</a>
+  <a href="#course6" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Child and Adolescent Mental Health Challenges and Support Approaches</a>
+  <a href="#course7" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Clinical Counseling Supervision</a>
+  <a href="#course8" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Psycho-Spiritual and Family Therapies</a>
+  <a href="#course9" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Crisis Intervention and Suicide Prevention</a>
+  <a href="#course10" class="bg-darkblue border-4 border-coreblue rounded-xl py-3 px-6 text-bgwhite text-sm sm:text-base lg:text-lg font-bold hover:text-darkblue hover:bg-bgwhite font-pop hover:drop-shadow-xl active:text-activeblack transition duration-300 ease-in-out">Trauma Informed Care</a>
 </div>
 
 
@@ -93,7 +94,7 @@
     
     {{-- Courses as Description Start --}}
     <div class="mx-10 md:mx-20">
-      <div id="course1" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+      <div id="course1" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
           <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Developing Counseling Skills for Professionals: Theory and Practice</h2>
           <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
               <div class="text-gray-700">
@@ -104,7 +105,7 @@
               </div>
           </div>
       </div>
-      <div id="course2" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+      <div id="course2" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
           <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Mental Health Psycho-social Support (MHPSS)</h2>
           <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
               <div class="text-gray-700">
@@ -115,7 +116,7 @@
               </div>
           </div>
       </div>
-      <div id="course3" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+      <div id="course3" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
           <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Mental Health, Substance Abuse and Addiction</h2>
           <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
               <div class="text-gray-700">
@@ -126,7 +127,7 @@
               </div>
           </div>
       </div>
-      <div id="course4" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+      <div id="course4" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
           <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Sexual and Gender Based Violence Prevention Response and Management</h2>
           <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
               <div class="text-gray-700">
@@ -137,7 +138,7 @@
               </div>
           </div>
       </div>
-      <div id="course5" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+      <div id="course5" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Marriage and Family Therapy</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -148,7 +149,7 @@
             </div>
         </div>
     </div>
-    <div id="course6" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+    <div id="course6" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Child and Adolescent Mental Health Challenges and Support Approaches</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -159,7 +160,7 @@
             </div>
         </div>
     </div>
-    <div id="course7" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+    <div id="course7" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Clinical Counseling Supervision</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -170,7 +171,7 @@
             </div>
         </div>
     </div>
-    <div id="course8" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+    <div id="course8" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Psycho-Spiritual and Family Therapies</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -181,7 +182,7 @@
             </div>
         </div>
     </div>
-    <div id="course9" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+    <div id="course9" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Crisis Intervention and Suicide Prevention</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -192,7 +193,7 @@
             </div>
         </div>
     </div>
-    <div id="course10" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:bg-hoverblue font-pop">
+    <div id="course10" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop">
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Trauma Informed Care</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">

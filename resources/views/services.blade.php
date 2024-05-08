@@ -17,6 +17,21 @@
           </div>
         </div>
       </div>
+      <div class="relative mt-2">
+        <img src="{{asset('images/svg/cwave.svg')}}" alt="" class="w-full">
+        
+        <div class="absolute inset-0 flex flex-col justify-center items-center font-semibold italic text-darkblue"> 
+            <h1 class="text-xl sm:text-2xl md:text-4xl text-center">“Confidentiality is Guaranteed”</h1>
+        </div>
+    
+    <img src="{{asset('images/svg/bannerend.svg')}}" alt="" class="w-full">
+    <div class="relative">
+        
+    </div>
+    
+  </div>
+</div>
+{{-- mainend --}}
     
         <!-- New section starts here -->
         <div class="md:w-2/3 text-left px-10 mt-8">
@@ -144,21 +159,7 @@
 
       {{-- Content Section Ends--}}
        
-            <div class="relative -mt-2">
-              <img src="{{asset('images/svg/cwave.svg')}}" alt="" class="w-full">
-              
-              <div class="absolute inset-0 flex flex-col justify-center items-center font-semibold italic text-darkblue"> 
-                  <h1 class="text-xl sm:text-2xl md:text-4xl text-center">“Confidentiality is Guaranteed”</h1>
-              </div>
-          
-          <img src="{{asset('images/svg/bannerend.svg')}}" alt="" class="w-full">
-          <div class="relative">
-              
-          </div>
-          
-        </div>
-  </div>
-    {{-- mainend --}}
+           
     </div>
   </x-layout>
   
