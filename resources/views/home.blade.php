@@ -1,26 +1,32 @@
 <x-layout>
   @section('title') {{'EAPCI-Home'}} @endsection
   {{-- mainstart --}}
-  <div class="w-full relative bg-cover bg-center h-max ">
-    <div class=" bg-bgwhite">
+  {{-- <div class="w-full relative bg-cover bg-center h-max bg-bgwhite">
       <div class="text-center h-2/3 ">
         <h1 class="text-4xl md:text-6xl font-bold text-black pt-20  w-full md:w-2/3 font-yesava">East African Professional Counselling Institute</h1>
-        
         <div class="flex flex-col mt-8">
-          <div class="flex justify-center">
             <div class=" w-1/2 h-20"><p class="mt-4 text-xl italic md:text-2xl text-black">“Life skills at hand”</p></div>
-            <div class="pt-20 w-1/2 h-20"><img src="{{asset('images/svg/bannerimg1.svg')}}" alt="" class="absolute right-10 p y-10"></div>
-          </div>
-        
-        <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="" class="w-full mt-96">
+            <div class="pt-20 h-full w-full bg-slate-200 z-0"><img src="{{asset('images/svg/basebanner.svg')}}" alt="" class="absolute h-2/3  md:right-10 py-10"></div>
+        <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="" class="w-full mt-96 z-10">
       </div>
     </div>
+  </div> --}}
+  <div class="w-full md:min-h-4/5 relative bg-cover bg-center bg-bgwhite">
+    <div class="pt-20 pb-10 px-10 md:px-20 w-full md:w-3/4 lg:w-2/3 z-10">
+    <h1 class="text-xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-black  font-yesava">East African Professional Counselling Institute</h1>
+    <p class="mt-4 text-xl italic md:text-2xl text-black md:text-right z-20">“Life skills at hand”</p>
   </div>
+    <div class="relative w-full h-2/5 mt-10">
+    <img src="{{asset('images/svg/basebanner.svg')}}" alt="" class="px-10 md:p-0 absolute md:right-20 bottom-20 md:w-2/3 lg:w-1/2 z-0">
+    <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="" class="absolute w-full bottom-20  z-10">
+    <div class="absolute h-20 w-full bg-headblue bottom-0"></div>
+    </div>
+    
   </div>
   {{-- mainend --}}
 
   {{-- briefstart --}}
-      <div class="flex justify bg-headblue h-max w-full py-10 md:p-10 border-b-8 border-darkblue pt-20">  
+      <div class="flex justify bg-headblue h-max w-full py-16 md:px-10 border-b-8 border-darkblue pt-20">  
         <div class="flex flex-col w-full justify-between lg:flex-row">
           <div class="bg-cover bg-center h-96 mx-10 lg:w-1/2 lg:h-full" style="background-image: url('{{ asset('images/png/broken_image.png') }}');"> </div>
             <div class="h-max p-10 lg:w-1/2">

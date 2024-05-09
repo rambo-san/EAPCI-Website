@@ -24,33 +24,34 @@
     
   </div>
 </div> --}}
-<div class="sticky h-lvh bg-bgwhite">
+<div class="sticky h-full bg-bgwhite">
   <img src="{{asset('images/jpg/serbg.jpg')}}" alt="cover image" class="w-full h-full object-top object-cover align-top ">
   <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent mix-blend-normal"></div>
-    <p class="absolute text-xs sm:text-base md:text:xl text-bgwhite m-10 md:mx-0 md:right-20 top-0 bg-darkblue h-max md:w-5/12 rounded-md p-10 backdrop-blur-lg opacity-70 font-pop">
+    <p class="absolute text-xs sm:text-base md:text:xl text-bgwhite m-10 md:mx-0 md:right-20 bottom-52 md:bottom-0 md:top-0 bg-darkblue h-max md:w-5/12 rounded-md p-10 backdrop-blur-lg opacity-70 font-pop">
       <strong>Feeling overwhelmed? Seeking clarity? Navigating life's challenges?</strong><br><span class="flex text-justify pt-2">Our multidimensional and comprehensive counseling, clinical, and psychiatric services offer a safe and supportive space where you can discover your inner strength and build a fulfilling life. Come and meet our highly qualified and experienced Counseling Psychologists, Clinical Psychologists, and Psychiatrists at East African Professional Counseling Institute Limited Uganda.
       </span>
     </p>
+    <div class="absolute bg-bgwhite rounded-t-3xl w-full h-52 bottom-0 z-10"> 
+      <h1 class="absolute inset-10 text-lg sm:text-2xl md:text-4xl text-center font-semibold italic text-darkblue drop-shadow-xl">“Confidentiality is Guaranteed”</h1> 
+</div>
 </div>
 {{-- mainend --}}
-    <div class="relative bg-bgwhite rounded-t-3xl -mt-40 h-40 sm:-mt-60 sm:h-60 z-10"> 
-        <h1 class="absolute inset-10 text-lg sm:text-2xl md:text-4xl text-center font-semibold italic text-darkblue drop-shadow-xl">“Confidentiality is Guaranteed”</h1> 
-  </div>
+    
         <!-- New section starts here -->
         <div class="md:w-full text-left px-10 md:px-20  bg-bgwhite font-pop text-base md:text-md lg:text-lg">
-          <h2 class="text-2xl font-bold text-gray-800 mb-4 font-yesava">Here's how we can empower you:</h2>
-          <ul class="list-disc list-inside text-gray-700">
-            <li style="font-size: 1.1em;">Conquer emotional challenges: Manage stress, anxiety, and depression, find healing from loss and trauma, and overcome addiction with individual counseling tailored to your needs.</li>
-              <li style="font-size: 1.1em;">Navigate life transitions: Seek guidance for children, youth, and adults facing unique challenges.</li>
-              <li style="font-size: 1.1em;">Gain deeper understanding: Uncover hidden patterns and unlock growth potential through psychological assessments and psychotherapy.</li>
+          <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mb-4 font-yesava">Here's how we can empower you:</h2>
+          <ul class="list-disc list-inside text-gray-700 ">
+            <li class="text-nd md:text-lg"> <strong>Conquer emotional challenges:</strong> <p class="flex text-justify">Manage stress, anxiety, and depression, find healing from loss and trauma, and overcome addiction with individual counseling tailored to your needs.</p></li>
+              <li class="text-nd md:text-lg"><strong>Navigate life transitions:</strong> <p class="flex text-justify"> Seek guidance for children, youth, and adults facing unique challenges.</p></li>
+              <li class="text-nd md:text-lg"><strong>Gain deeper understanding:</strong> <p class="flex text-justify"> Uncover hidden patterns and unlock growth potential through psychological assessments and psychotherapy.</p></li>
               <!-- Add more list items as needed -->
           </ul>
           <!-- Additional benefits section -->
-          <h2 class="text-2xl font-bold text-gray-800 mt-6 mb-4 font-yesava">We offer additional benefits:</h2>
+          <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mt-6 mb-4 font-yesava">We offer additional benefits:</h2>
           <ul class="list-disc list-inside text-gray-700">
-              <li style="font-size: 1.1em;">A diverse team of qualified professionals: Find the perfect counselor who understands your specific needs. Or a clinical psychologist who will help you discover your mental health state through assessment and treatment of severe mental disorders. Or a psychiatrist who will diagnose you and prescribe medicine to enhance your mental health.</li>
-              <li style="font-size: 1.1em;">Flexible scheduling and modalities: We offer in-person and online options to fit your busy lifestyle.</li>
-              <li style="font-size: 1.1em;">Culturally sensitive and inclusive environment: Feel welcomed and respected regardless of your background.</li>
+              <li class="text-nd md:text-lg"><strong>A diverse team of qualified professionals:</strong> <p class="flex text-justify"> Find the perfect counselor who understands your specific needs. Or a clinical psychologist who will help you discover your mental health state through assessment and treatment of severe mental disorders. Or a psychiatrist who will diagnose you and prescribe medicine to enhance your mental health.</p></li>
+              <li class="text-nd md:text-lg"><strong>Flexible scheduling and modalities:</strong> <p class="flex text-justify"> We offer in-person and online options to fit your busy lifestyle.</p></li>
+              <li class="text-nd md:text-lg"><strong>Culturally sensitive and inclusive environment:</strong> <p class="flex text-justify"> Feel welcomed and respected regardless of your background.</p></li>
           </ul>
           <!-- Contact information -->
           
