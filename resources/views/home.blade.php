@@ -14,9 +14,9 @@
   <div class="w-full md:min-h-4/5 relative bg-cover bg-center bg-bgwhite">
     <div class="pt-20 pb-10 px-10 md:px-20 w-full md:w-3/4 lg:w-2/3 z-10">
     <h1 class="text-xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-black  font-yesava">East African Professional Counselling Institute</h1>
-    <p class="mt-4 text-xl italic md:text-2xl text-black md:text-right z-20">“Life skills at hand”</p>
+    <p class="mt-4 text-xl italic md:text-2xl text-black text-right z-20 pr-10 md:pr-20">“Life skills at hand”</p>
   </div>
-    <div class="relative w-full h-2/5 mt-10">
+    <div class="relative w-full h-2/5 lg:h-1/2 mt-10 sm:mt-20 md:mt-32 lg:mt-52">
     <img src="{{asset('images/svg/basebanner.svg')}}" alt="" class="px-10 md:p-0 absolute md:right-20 bottom-20 md:w-2/3 lg:w-1/2 z-0">
     <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="" class="absolute w-full bottom-20  z-10">
     <div class="absolute h-20 w-full bg-headblue bottom-0"></div>
@@ -26,7 +26,7 @@
   {{-- mainend --}}
 
   {{-- briefstart --}}
-      <div class="flex justify bg-headblue h-max w-full py-16 md:px-10 border-b-8 border-darkblue pt-20">  
+      <div class="flex justify bg-headblue h-max w-full pb-20 md:px-10 border-b-8 border-darkblue pt-20">  
         <div class="flex flex-col w-full justify-between lg:flex-row">
           <div class="bg-cover bg-center h-96 mx-10 lg:w-1/2 lg:h-full" style="background-image: url('{{ asset('images/png/broken_image.png') }}');"> </div>
             <div class="h-max p-10 lg:w-1/2">
