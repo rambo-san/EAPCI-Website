@@ -58,45 +58,45 @@
 
       {{-- Content Section --}}
 
-      <div class="w-full px-10 md:px-20 pb-20 font-pop " style="
+      <div class="w-full px-10 md:px-20 pb-20 font-pop  drop-shadow-xl" style="
       background-color: rgb(17, 94, 89);
       background-image: radial-gradient(at 15% 14%, rgb(31, 41, 55) 0, transparent 100%), radial-gradient(at 8% 76%, rgb(8, 145, 178) 0, transparent 85%), radial-gradient(at 92% 14%, rgb(55, 65, 81) 0, transparent 37%), radial-gradient(at 27% 48%, rgb(41, 37, 36) 0, transparent 65%), radial-gradient(at 23% 28%, rgb(15, 23, 42) 0, transparent 31%);">
-        <h2 class="text-2xl font-bold text-center text-bgwhite py-10 font-yesava">Step Forward For A Well-being Journey: Service Descriptions</h2>
+        <h2 class="text-2xl font-bold text-center text-bgwhite py-10 font-yesava drop-shadow-xl">Step Forward For A Well-being Journey: Service Descriptions</h2>
         <ul class="service-list grid grid-cols-1 md:grid-cols-2 gap-4">
-          <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-            <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">1. Stress, Anxiety, and Depression Counseling</h3>
+          <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+            <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">1. Stress, Anxiety, and Depression Counseling</h3>
             <p class="text-bgwhite">
               <strong>Definition:</strong> This therapy helps individuals manage difficult emotions like stress, anxiety, and depression, which can manifest as excessive worrying, sadness, fatigue, changes in sleep or appetite, and difficulty concentrating.
               <br>
               <strong>Signs:</strong> Feeling overwhelmed, irritable, hopeless, or isolated, experiencing panic attacks, avoiding social situations, changes in mood or energy levels.
             </p>
           </li>
-          <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-            <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">2. Child, Youth, and Adult Counseling</h3>
+          <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+            <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">2. Child, Youth, and Adult Counseling</h3>
             <p class="text-bgwhite">
               <strong>Definition:</strong> Tailored therapy for children, adolescents, and adults facing various challenges like bullying, social anxiety, family conflict, learning difficulties, or emotional disturbances.
               <br>
               <strong>Signs:</strong> Changes in behavior (withdrawal, aggression), academic difficulties, low self-esteem, difficulty managing emotions, or significant life changes causing distress.
             </p>
           </li>
-          <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-            <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">3. Psychological Assessment and Psychotherapy</h3>
+          <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+            <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">3. Psychological Assessment and Psychotherapy</h3>
             <p class="text-bgwhite">
                 <strong>Definition:</strong> In-depth evaluation of thoughts, behaviors, and emotions to understand underlying issues and develop a personalized treatment plan (psychotherapy) using methods like CBT or psychodynamic therapy.
                 <br>
                 <strong>Signs:</strong> Struggling with repetitive thoughts or behaviors, wanting to understand the root of emotional challenges, seeking support for complex mental health concerns.
             </p>
         </li>
-        <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-            <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">4. Alcohol, Drug Abuse, and Addiction Counseling</h3>
+        <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+            <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">4. Alcohol, Drug Abuse, and Addiction Counseling</h3>
             <p class="text-bgwhite">
                 <strong>Definition:</strong> Specialized therapy to help individuals overcome dependence on alcohol, drugs, or other substances, addressing the underlying causes and developing coping mechanisms for recovery.
                 <br>
                 <strong>Signs:</strong> Difficulty controlling substance use, cravings, neglecting responsibilities due to use, negative impact on relationships or work, withdrawal symptoms when trying to stop.
             </p>
         </li>
-        <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-          <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava" >5. Loss, Grief, and Trauma Counseling</h3>
+        <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+          <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop" >5. Loss, Grief, and Trauma Counseling</h3>
           <p class="text-bgwhite">
               <strong>Definition:</strong> Support for navigating the emotional challenges of loss (death, divorce, etc.), grief (sadness, anger, guilt), and trauma (post-traumatic stress disorder, etc.).
               <br>
@@ -104,8 +104,8 @@
           </p>
       </li>
       <!-- 6. Gender Identity and Sexuality Counseling -->
-      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-          <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">6. Gender Identity and Sexuality Counseling</h3>
+      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+          <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">6. Gender Identity and Sexuality Counseling</h3>
           <p class="text-bgwhite">
               <strong>Definition:</strong> Affirming and supportive therapy for individuals exploring their gender identity, sexual orientation, or questioning these aspects of themselves.
               <br>
@@ -113,8 +113,8 @@
           </p>
       </li>
       <!-- 7. Career and Financial Guidance -->
-      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-          <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">7. Career and Financial Guidance</h3>
+      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+          <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">7. Career and Financial Guidance</h3>
           <p class="text-bgwhite">
               <strong>Definition:</strong> Personalized guidance to help individuals navigate career decisions, set financial goals, manage debt, and develop healthy financial habits.
               <br>
@@ -122,8 +122,8 @@
           </p>
       </li>
       <!-- 8. Life Coaching -->
-      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-          <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">8. Life Coaching</h3>
+      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+          <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">8. Life Coaching</h3>
           <p class="text-bgwhite">
               <strong>Definition:</strong> Partnership to enhance self-awareness, set and achieve personal goals, and improve overall well-being in various life areas.
               <br>
@@ -131,8 +131,8 @@
           </p>
       </li>
       <!-- 9. HIV/AIDS Counseling -->
-      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-          <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">9. HIV/AIDS Counseling</h3>
+      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+          <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">9. HIV/AIDS Counseling</h3>
           <p class="text-bgwhite">
               <strong>Definition:</strong> Specialized support for individuals living with HIV/AIDS, addressing emotional, social, and practical challenges related to the diagnosis and treatment.
               <br>
@@ -140,8 +140,8 @@
           </p>
       </li>
       <!-- 10. Premarital, Marriage, and Family Counseling -->
-      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-          <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">10. Premarital, Marriage, and Family Counseling</h3>
+      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+          <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">10. Premarital, Marriage, and Family Counseling</h3>
           <p class="text-bgwhite">
               <strong>Definition:</strong> Support for couples and families at various stages, addressing communication issues, conflict resolution, parenting challenges, or preparing for marriage.
               <br>
@@ -149,8 +149,8 @@
           </p>
       </li>
       <!-- 11. Psychospiritual Therapy -->
-      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[5px_5px_10px_#000000] transition duration-300 ease-in-out">
-          <h3 class="text-xl font-bold text-bgwhite mb-2 font-yesava">11. Psychospiritual Therapy</h3>
+      <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
+          <h3 class="text-xl font-bold text-bgwhite mb-2 font-pop">11. Psychospiritual Therapy</h3>
           <p class="text-bgwhite">
               <strong>Definition:</strong> Integrates spiritual exploration and psychological support to address mental health concerns while considering the meaning and purpose in life.
               <br>

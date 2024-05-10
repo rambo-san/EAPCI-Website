@@ -9,6 +9,12 @@
 
 </head>
 <body class="overflow-x-hidden"> {{--  add overflow-x-hidden to prevent horizontal scrolling --}}
+    {{-- preloader --}}
+    <div id="preloader" class="fixed top-0 left-0 z-50 w-full h-full bg-gradient-to-b from-darkblue to-black flex items-center justify-center">
+        <img src="{{asset('images/svg/preloader.svg')}}" alt="">
+    </div>
+    {{-- end preloader --}}
+
     <!--Navbar Start-->
 <nav class=" sticky top-0 w-full z-40 border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700" id="navbar">
     <div  class=" py-2  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
@@ -70,7 +76,7 @@
 
     <!--Body Start-->
         {{-- Scroll to Top Button --}}
-        <button onclick="scrollToTop()" id="moveToTopButton" class="fixed z-50 bottom-10 right-10 bg-white p-2 rounded-full shadow-md transition-opacity opacity-70 hover:opacity-100 focus:outline-none focus:scale-105 hidden duration-500 ease-in-out" aria-label="Scroll to top">
+        <button onclick="scrollToTop()" id="moveToTopButton" class="fixed z-40 bottom-10 right-10 bg-white p-2 rounded-full shadow-md transition-opacity opacity-70 hover:opacity-100 focus:outline-none focus:scale-105 hidden duration-500 ease-in-out" aria-label="Scroll to top">
             <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 348.47 348.47" class=" w-14 h-14">
                 <circle cx="174.23" cy="174.23" r="165.23" style="fill: #2C6173; stroke: #2C6173; stroke-miterlimit: 10; stroke-width: 18px;"/>
                 <path d="m152.29,86.3h48.44v170.31c0,13.37-10.85,24.22-24.22,24.22h0c-13.37,0-24.22-10.85-24.22-24.22V86.3h0Z" style="fill: #fff; stroke-width: 0px;"/>
@@ -104,6 +110,12 @@
                 function scrollToTop() {
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
+
+                var preloader = document.getElementById('preloader');
+                window.addEventListener('load', function(){
+                    preloader.style.display = 'none';
+                });
+
 
 
             </script>

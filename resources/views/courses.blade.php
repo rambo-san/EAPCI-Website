@@ -56,7 +56,7 @@
 </div>
 {{-- Carousal End --}}
 {{-- Brief Courses --}}
-<div class="flex justify bg-bgwhite h-max w-full py-10 md:p-10 border-b-8 border-darkblue">
+<div class="flex justify bg-bgwhite h-max w-full py-10 md:p-10 ">
   <div class="flex flex-col w-full justify-between lg:flex-row">
     <div class="h-max p-10">
       <h1 class="lg:text-left text-3xl md:text-4xl mb-10 text-center font-yesava" >Explore Our Short Counseling and Clinical Psychology Courses</h1>
