@@ -39,21 +39,87 @@
     
         <!-- New section starts here -->
         <div class="md:w-full text-left px-10 md:px-20 pb-10 md:pb-20  bg-bgwhite font-pop text-base md:text-md lg:text-lg">
-          <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 mb-4 font-yesava">Here's how we can empower you:</h2>
-          <ul class="list-disc list-inside text-gray-700 ">
-            <li class="text-nd md:text-lg"> <strong>Conquer emotional challenges:</strong> <p class="flex text-justify">Manage stress, anxiety, and depression, find healing from loss and trauma, and overcome addiction with individual counseling tailored to your needs.</p></li>
-              <li class="text-nd md:text-lg"><strong>Navigate life transitions:</strong> <p class="flex text-justify"> Seek guidance for children, youth, and adults facing unique challenges.</p></li>
-              <li class="text-nd md:text-lg"><strong>Gain deeper understanding:</strong> <p class="flex text-justify"> Uncover hidden patterns and unlock growth potential through psychological assessments and psychotherapy.</p></li>
-              <!-- Add more list items as needed -->
-          </ul>
-          <!-- Additional benefits section -->
-          <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 mt-6 mb-4 font-yesava">We offer additional benefits:</h2>
-          <ul class="list-disc list-inside text-gray-700">
-              <li class="text-nd md:text-lg"><strong>A diverse team of qualified professionals:</strong> <p class="flex text-justify"> Find the perfect counselor who understands your specific needs. Or a clinical psychologist who will help you discover your mental health state through assessment and treatment of severe mental disorders. Or a psychiatrist who will diagnose you and prescribe medicine to enhance your mental health.</p></li>
-              <li class="text-nd md:text-lg"><strong>Flexible scheduling and modalities:</strong> <p class="flex text-justify"> We offer in-person and online options to fit your busy lifestyle.</p></li>
-              <li class="text-nd md:text-lg"><strong>Culturally sensitive and inclusive environment:</strong> <p class="flex text-justify"> Feel welcomed and respected regardless of your background.</p></li>
-          </ul>
+          {{-- how we can empower --}}
+          <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 mb-10 font-yesava">Here's how we can empower you:</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue">
+            <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+              <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
+                <img src="{{asset('images/jpg/ser1.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+              </div>
+              <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
+                  <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Conquer emotional challenges</p>
+                  <div class="hidden group-hover:block p-5 lg:p-10">
+                      <p class="text-lg font-bold">Conquer emotional challenges</p>
+                      <p class="text-md text-justify">Manage stress, anxiety, and depression, find healing from loss and trauma, and overcome addiction with individual counseling tailored to your needs.</p>
+                  </div>
+              </div>
+          </div>
+            <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+                <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
+                  <img src="{{asset('images/jpg/ser2.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+                </div>
+                <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
+                    <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Navigate life transitions</p>
+                    <div class="hidden group-hover:block p-5 lg:p-10">
+                        <p class="text-lg font-bold">Navigate life transitions</p>
+                        <p class="text-md text-justify">Seek guidance for children, youth, and adults facing unique challenges.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+              <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
+                <img src="{{asset('images/jpg/ser3.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+              </div>
+              <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
+                  <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Gain deeper understanding</p>
+                  <div class="hidden group-hover:block p-5 lg:p-10">
+                      <p class="text-lg font-bold">Gain deeper understanding</p>
+                      <p class="text-md text-justify">Uncover hidden patterns and unlock growth potential through psychological assessments and psychotherapy</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+        {{-- additonal benefits --}}
+        <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 my-10 font-yesava">We offer additional benefits:</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue">
+          <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+            <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
+              <img src="{{asset('images/jpg/ser4.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+            </div>
+            <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
+                <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">A diverse team of qualified professionals</p>
+                <div class="hidden group-hover:block p-5 lg:p-10">
+                    <p class="text-lg font-bold">A diverse team of qualified professionals</p>
+                    <p class="text-md text-justify">Find the perfect counselor who understands your specific needs. Or a clinical psychologist who will help you discover your mental health state through assessment and treatment of severe mental disorders. Or a psychiatrist who will diagnose you and prescribe medicine to enhance your mental health.</p>
+                </div>
+            </div>
+        </div>
+          <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+              <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
+                <img src="{{asset('images/jpg/ser5.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+              </div>
+              <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
+                  <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Flexible scheduling and modalities</p>
+                  <div class="hidden group-hover:block p-5 lg:p-10">
+                      <p class="text-lg font-bold">Flexible scheduling and modalities</p>
+                      <p class="text-md text-justify">We offer in-person and online options to fit your busy lifestyle.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+            <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
+              <img src="{{asset('images/jpg/ser6.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+            </div>
+            <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
+                <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Culturally sensitive and inclusive environment</p>
+                <div class="hidden group-hover:block p-5 lg:p-10">
+                    <p class="text-lg font-bold">Culturally sensitive and inclusive environment</p>
+                    <p class="text-md text-justify">Feel welcomed and respected regardless of your background.</p>
+                </div>
+            </div>
+        </div>
       </div>
+    </div>
       <!-- New section ends here -->
 
       {{-- Content Section --}}
