@@ -1,16 +1,15 @@
 <x-layout>
   @section('title') {{'East African Professional Counselling Institute - About Us'}} @endsection
-  <div class="bg-gray-900 text-white h-screen flex items-center justify-center">
+  <div class="bg-bgwhite text-black h-screen flex items-center justify-center">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4">East African Professional Counselling Institute (EAPCI)</h1>
       <p class="text-lg sm:text-xl md:text-2xl leading-relaxed mb-8">
         EAPCI was established in 2010 by Counseling and Clinical psychologists from Uganda and Kenya after realizing that both countries share similar psychosocial challenges. A unique experiential learning methodology is applied in all courses and has been found to be very effective. The shared vision of founders was realized when they established an institute in Uganda which has been steadily progressing over the past 13 years. EAPCI is a professional counseling institute registered with the Registrar of Companies (number 119844) in Uganda.
       </p>
-      
     </div>
   </div>
 
-  <div class="bg-white py-16">
+  <div class="bg-bgwhite py-16">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold text-center mb-2 font-serif">Our Story and Mission</h2>  <p class="text-gray-700 text-lg leading-relaxed mb-8">
         EAPCI stays at the forefront of holistic mental health services in Uganda and the Great Lakes Region by constantly incorporating new techniques and skills. We've provided psychosocial counseling services to organizations like Communication for Development Foundation Uganda (CDFU), Reproductive Health Uganda (RH Uganda), and World Vision International Uganda. Currently, we support the Ministry of Gender Labour and Social Development's Gender Unit and the SATI child helpline, as well as Kampala Medical Chambers' mental health clinic hospital.

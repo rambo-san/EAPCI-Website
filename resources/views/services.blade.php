@@ -1,5 +1,5 @@
 <x-layout>
-    @section('title', 'EAPCI-Courses')
+    @section('title', 'EAPCI-Services')
     {{-- mainstart --}}
     {{-- <div class="w-full relative bg-cover h-max" style="background-image:url({{asset('images/jpg/serbg.jpg')}})">
           <div class="flex justify-left">
