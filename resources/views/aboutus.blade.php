@@ -1,16 +1,19 @@
 <x-layout>
-  @section('title') {{'East African Professional Counselling Institute - About Us'}} @endsection
-  <div class="bg-darkblue text-white h-screen flex items-center justify-center bg-cover">
-    <div class="absolute bg-darkblue w-full h-full opacity-40  bg-cover"  style="background-image: url('{{asset('images/jpg/aboutbg.jpg')}}')"></div>
-    <div class="h-full sm:h-auto sm:container mx-auto p-20 z-10 backdrop-blur-sm rounded-xl sm:border border-white contrast-150 flex-row ">
-      <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4 text-center">East African Professional Counselling Institute (EAPCI)</h1>
-      <p class="text-lg sm:text-xl md:text-2xl leading-relaxed mb-8 text-justify">
+  @section('title') {{'EAPCI - About Us'}} @endsection
+  <div class="relative bg-darkblue text-white min-h-screen flex flex-col items-center justify-center font-pop bg-gradient-to-t from-black to-transparent bg-opacity-60">
+    <div class="absolute inset-0 opacity-40 bg-cover blur-md sm:blur-0" style="background-image: url('{{asset('images/jpg/aboutbg.jpg')}}')"></div>
+    <div class="container my-16 mx-auto px-10 md:p-20 z-10 sm:backdrop-blur-sm rounded-xl sm:border border-white contrast-150 text-cente drop-shadow-xl">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold leading-tight mb-4 ">East African Professional Counselling Institute (EAPCI)</h1>
+      <p class="text-md sm:text-xl md:text-2xl leading-relaxed mb-8 text-justify">
         EAPCI was established in 2010 by Counseling and Clinical psychologists from Uganda and Kenya after realizing that both countries share similar psychosocial challenges. A unique experiential learning methodology is applied in all courses and has been found to be very effective. The shared vision of founders was realized when they established an institute in Uganda which has been steadily progressing over the past 13 years. EAPCI is a professional counseling institute registered with the Registrar of Companies (number 119844) in Uganda.
       </p>
     </div>
-  </div>
+    <div class="absolute bottom-0 h-10 w-full bg-bgwhite rounded-t-3xl z-10"></div>
+</div>
 
-  <div class="bg-bgwhite py-16">
+
+
+  <div class="relative bg-bgwhite py-16">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <h2 class="text-3xl font-bold text-center mb-2 font-serif">Our Story and Mission</h2>  <p class="text-gray-700 text-lg leading-relaxed mb-8">
         EAPCI stays at the forefront of holistic mental health services in Uganda and the Great Lakes Region by constantly incorporating new techniques and skills. We've provided psychosocial counseling services to organizations like Communication for Development Foundation Uganda (CDFU), Reproductive Health Uganda (RH Uganda), and World Vision International Uganda. Currently, we support the Ministry of Gender Labour and Social Development's Gender Unit and the SATI child helpline, as well as Kampala Medical Chambers' mental health clinic hospital.
