@@ -104,6 +104,23 @@
 </div>
 {{-- shortcourse brief --}}
 
+{{-- campus --}}
+<div class="h-max bg-bgwhite p-10 md:p-20">
+    <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl md:text-6xl font-bold text-center mb-10">College Campus</h1>
+      <div class="bg-white rounded-lg shadow-lg p-6">
+        <img src="{{ asset('images/campus1.jpg') }}" alt="Campus Image 1" class="w-full h-64 object-cover rounded-lg mb-4">
+        <h2 class="text-2xl font-bold mb-2">Campus Building 1</h2>
+        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+</div>
+</div>
+
+{{-- campus --}}
+
+{{-- contact --}}
+
 <script>
   setInterval(() => {
       document.querySelector('[data-carousel-next]').click();
