@@ -48,7 +48,7 @@
               </div>
               <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                   <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Conquer emotional challenges</p>
-                  <div class="hidden group-hover:block p-5 lg:p-10">
+                  <div class="hidden group-hover:block py-2 px-5 lg:px-10">
                       <p class="text-lg font-bold">Conquer emotional challenges</p>
                       <p class="text-md text-justify">Manage stress, anxiety, and depression, find healing from loss and trauma, and overcome addiction with individual counseling tailored to your needs.</p>
                   </div>
@@ -60,9 +60,9 @@
                 </div>
                 <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                     <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Navigate life transitions</p>
-                    <div class="hidden group-hover:block p-5 lg:p-10">
+                    <div class="hidden group-hover:block py-2 px-5 lg:px-10">
                         <p class="text-lg font-bold">Navigate life transitions</p>
-                        <p class="text-md text-justify">Seek guidance for children, youth, and adults facing unique challenges.</p>
+                        <p class="text-md text-center">Seek guidance for children, youth, and adults facing unique challenges.</p>
                     </div>
                 </div>
             </div>
@@ -72,9 +72,9 @@
               </div>
               <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                   <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Gain deeper understanding</p>
-                  <div class="hidden group-hover:block p-5 lg:p-10">
+                  <div class="hidden group-hover:block py-2 px-5 lg:px-10">
                       <p class="text-lg font-bold">Gain deeper understanding</p>
-                      <p class="text-md text-justify">Uncover hidden patterns and unlock growth potential through psychological assessments and psychotherapy</p>
+                      <p class="text-md">Uncover hidden patterns and unlock growth potential through psychological assessments and psychotherapy</p>
                   </div>
               </div>
           </div>
@@ -88,9 +88,10 @@
             </div>
             <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                 <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">A diverse team of qualified professionals</p>
-                <div class="hidden group-hover:block p-5 lg:p-10">
+                <div class="hidden group-hover:block py-2 px-5 lg:px-2">
                     <p class="text-lg font-bold">A diverse team of qualified professionals</p>
-                    <p class="text-md text-justify">Find the perfect counselor who understands your specific needs. Or a clinical psychologist who will help you discover your mental health state through assessment and treatment of severe mental disorders. Or a psychiatrist who will diagnose you and prescribe medicine to enhance your mental health.</p>
+                    <p class="text-md text-center">
+                      Discover the ideal counselor or clinical psychologist to address your unique needs, or find a psychiatrist for diagnosis and medication to improve your mental health.</p>
                 </div>
             </div>
         </div>
@@ -100,9 +101,9 @@
               </div>
               <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                   <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Flexible scheduling and modalities</p>
-                  <div class="hidden group-hover:block p-5 lg:p-10">
+                  <div class="hidden group-hover:block py-2 px-5 lg:px-10">
                       <p class="text-lg font-bold">Flexible scheduling and modalities</p>
-                      <p class="text-md text-justify">We offer in-person and online options to fit your busy lifestyle.</p>
+                      <p class="text-md text-center">We offer in-person and online options to fit your busy lifestyle.</p>
                   </div>
               </div>
           </div>
@@ -112,9 +113,9 @@
             </div>
             <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                 <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Culturally sensitive and inclusive environment</p>
-                <div class="hidden group-hover:block p-5 lg:p-10">
+                <div class="hidden group-hover:block py-2 px-5 lg:px-10">
                     <p class="text-lg font-bold">Culturally sensitive and inclusive environment</p>
-                    <p class="text-md text-justify">Feel welcomed and respected regardless of your background.</p>
+                    <p class="text-md text-center">Feel welcomed and respected regardless of your background.</p>
                 </div>
             </div>
         </div>

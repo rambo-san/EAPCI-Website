@@ -67,7 +67,7 @@
         <img src="{{ asset('images/jpg/aboutbg.jpg') }}" alt="Campus Image 1" class="w-full h-96 object-cover rounded-lg mb-4 object-center">
         <h1 class="absolute top-10 left-10 z-10 text-2xl md:text-3xl font-bold text-center p-5 rounded-xl backdrop-blur-sm text-white drop-shadow-sm border-white border">Our Campus</h1>
         <div><h2 class="text-2xl font-bold mb-2">Campus Building 1</h2>
-        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        {{-- <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> --}}
       </div>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.771929990687!2d32.612902976151744!3d0.27629646408330777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbdcff6c0e613%3A0xf3c603d2b5b8fdb!2sEAST%20AFRICAN%20PROFESSIONAL%20COUNSELLING%20INSTITUTE!5e0!3m2!1sen!2sin!4v1715612332824!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="md:h-full w-full"></iframe>
