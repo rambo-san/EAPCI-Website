@@ -133,39 +133,31 @@
         <div class="justify-between w-full p-4 py-6 lg:py-8">
             <div class="mx-10 md:mx-20 md:flex md:justify-between">
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                 {{-- <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                 <div>
+                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">PAGES</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <a href="https://flowbite.com/" class="hover:underline">Flowbite</a>
+                          <li class="mb-2">
+                              <a href="/" class="hover:underline">HOME</a>
+                          </li>
+                          <li class="mb-2"> 
+                              <a href="/services" class="hover:underline">SERVICES</a>
+                          </li>
+                          <li class="mb-2">
+                              <a href="/courses" class="hover:underline">COURSES</a>
                           </li>
                           <li>
-                              <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                              <a href="/about" class="hover:underline">ABOUT US</a>
                           </li>
                       </ul>
                   </div>
                   <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">SOCIAL</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                           <li class="mb-4">
-                              <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
-                          </li>
-                          <li>
-                              <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                              <a href="https://www.facebook.com/eastafricaprofessionalcounsellinginstitute/" class="hover:underline ">FACEBOOK</a>
                           </li>
                       </ul>
                   </div>
-                  <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                      <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                          <li class="mb-4">
-                              <a href="#" class="hover:underline">Privacy Policy</a>
-                          </li>
-                          <li>
-                              <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-                          </li>
-                      </ul>
-                  </div>--}}
               </div> 
               <div class="my-6 w-full md:ml-10 lg:w-max  md:my-0 text-justify font-pop">
                         <h2 class="mb-3 text-xl font-bold text-darkblue uppercase dark:text-white">Contact</h2>
