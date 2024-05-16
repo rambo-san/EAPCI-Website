@@ -12,6 +12,9 @@ module.exports = {
       'ser': ['sans-serif'],
     },
     extend: {
+      backgroundImage: {
+        'serbg': 'url("/public/images/jpg/serbg.jpg")',
+      },
       colors: {
         headblue: '#24B4E8',
         coreblue: '#9ADBEF',
