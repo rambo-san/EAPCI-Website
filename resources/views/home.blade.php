@@ -1,16 +1,6 @@
 <x-layout>
   @section('title') {{'EAPCI-Home'}} @endsection
   {{-- mainstart --}}
-  {{-- <div class="w-full relative bg-cover bg-center h-max bg-bgwhite">
-      <div class="text-center h-2/3 ">
-        <h1 class="text-4xl md:text-6xl font-bold text-black pt-20  w-full md:w-2/3 font-yesava">East African Professional Counselling Institute</h1>
-        <div class="flex flex-col mt-8">
-            <div class=" w-1/2 h-20"><p class="mt-4 text-xl italic md:text-2xl text-black">“Life skills at hand”</p></div>
-            <div class="pt-20 h-full w-full bg-slate-200 z-0"><img src="{{asset('images/svg/basebanner.svg')}}" alt="" class="absolute h-2/3  md:right-10 py-10"></div>
-        <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="" class="w-full mt-96 z-10">
-      </div>
-    </div>
-  </div> --}}
   <div class="w-full md:min-h-4/5 relative bg-cover bg-center bg-bgwhite">
     <div class="pt-20 pb-10 px-10 md:px-20 w-full md:w-3/4 lg:w-2/3 z-10">
     <h1 class="text-xl sm:text-3xl md:text-6xl text-center md:text-left font-bold text-black  font-yesava">East African Professional Counselling Institute</h1>
@@ -28,7 +18,11 @@
   {{-- briefstart --}}
       <div class="flex justify bg-headblue h-max w-full pb-20 md:px-10 border-b-8 border-darkblue pt-20">  
         <div class="flex flex-col w-full justify-between lg:flex-row">
-          <div class="bg-cover bg-center h-96 mx-10 lg:w-1/2 lg:h-full" style="background-image: url('{{ asset('images/png/broken_image.png') }}');"> </div>
+          <div class="relative hidden md:flex bg-center h-96 mx-10 lg:w-1/2 lg:h-full inset-0 overflow-hidden flex-row items-center justify-center ">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.6/build/spline-viewer.js"></script>
+<spline-viewer loading-anim-type="spinner-big-dark" url="https://prod.spline.design/WXUOhRmm1mYcCL3s/scene.splinecode"></spline-viewer>
+            {{-- <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 hover:grayscale hover:scale-125 hover:opacity-80"> --}}
+          </div>
             <div class="h-max p-10 lg:w-1/2">
               <h1 class="lg:text-left text-4xl  text-center font-yesava" >What is EAPCI?</h1>
               <p class="text-lg pt-6 flex-1 text-justify font-pop">
@@ -109,7 +103,9 @@ Additionally, our specialized courses cover areas such as Sexual and Gender-Base
         <a href="courses" ><button class="bg-darkblue border-4 border-coreblue rounded-xl p-4 text-bgwhite text-xl font-bold  mt-10 max-w-max  hover:text-darkblue hover:bg-bgwhite duration-300 ease-in-out font-pop">Know More</button>
         </a>
     </div>
-    <div class="bg-cover bg-center h-96 mx-10 lg:w-1/2 lg:h-full" style="background-image: url('{{ asset('images/png/broken_image.png') }}');"> </div>
+    <div class="relative hidden sm:inline bg-center h-96 mx-10 lg:w-1/2 md:h-3/4 mt-20 rounded-xl shadow-xl contrast-125 bg-darkblue group-hover:opacity-100 inset-0 overflow-hidden">
+      <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 grayscale hover:grayscale-0 hover:scale-125 hover:opacity-80">
+      </div>
   </div>
 </div>
 {{-- shortcourse brief --}}

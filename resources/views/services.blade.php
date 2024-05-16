@@ -43,7 +43,7 @@
           {{-- how we can empower --}}
           <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 mb-10 font-yesava">Here's how we can empower you:</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue">
-            <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+            <div class="group  rounded-md overflow-hidden shadow-md relative">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
                 <img src="{{asset('images/jpg/ser1.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
@@ -55,7 +55,7 @@
                   </div>
               </div>
           </div>
-            <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+            <div class="group  rounded-md overflow-hidden shadow-md relative">
                 <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
                   <img src="{{asset('images/jpg/ser2.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
                 </div>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+            <div class="group  rounded-md overflow-hidden shadow-md relative">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
                 <img src="{{asset('images/jpg/ser3.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
@@ -83,7 +83,7 @@
         {{-- additonal benefits --}}
         <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 my-10 font-yesava">We offer additional benefits:</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue">
-          <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+          <div class="group  rounded-md overflow-hidden shadow-md relative">
             <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
               <img src="{{asset('images/jpg/ser4.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
             </div>
@@ -96,7 +96,7 @@
                 </div>
             </div>
         </div>
-          <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+          <div class="group  rounded-md overflow-hidden shadow-md relative">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
                 <img src="{{asset('images/jpg/ser5.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
@@ -108,7 +108,7 @@
                   </div>
               </div>
           </div>
-          <div class="group bg-image rounded-md overflow-hidden shadow-md relative">
+          <div class="group  rounded-md overflow-hidden shadow-md relative">
             <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
               <img src="{{asset('images/jpg/ser6.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
             </div>
