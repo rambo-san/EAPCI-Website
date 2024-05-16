@@ -1,8 +1,9 @@
 <x-layout>
   @section('title') {{'EAPCI - About Us'}} @endsection
-  <div class="relative bg-darkblue text-white min-h-screen flex flex-col items-center justify-center font-pop bg-gradient-to-t from-black to-transparent sm:bg-opacity-60">
-    <div class="absolute inset-0 opacity-40 bg-cover blur-md sm:blur-0" style="background-image: url('{{asset('images/jpg/aboutbg.jpg')}}')"></div>
-    <div class="container my-16 mx-auto p-10 md:p-20 z-10 sm:backdrop-blur-sm rounded-xl sm:border border-white contrast-150 text-cente drop-shadow-xl">
+  <div class="relative bg-aboutbg text-white min-h-screen flex flex-col items-center justify-center font-pop bg-cover bg-fixed bg-center ">
+    <div class="absolute top-0 bg-gradient-to-t from-black to-transparent h-full w-full backdrop-blur md:backdrop-blur-sm"></div>
+    {{-- <div class="absolute inset-0 opacity-40 bg-cover blur-md sm:blur-0" style="background-image: url('{{asset('images/jpg/aboutbg.jpg')}}')"></div> --}}
+    <div class="container my-16 mx-auto p-10 md:p-20 z-10 sm:backdrop-blur-xl rounded-xl sm:border border-white text-cente drop-shadow-xl">
       <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold leading-tight mb-4 text-center">East African Professional Counselling Institute (EAPCI)</h1>
       <p class="text-md sm:text-xl md:text-2xl leading-relaxed mb-8 text-justify">
         EAPCI was established in 2010 by Counseling and Clinical psychologists from Uganda and Kenya after realizing that both countries share similar psychosocial challenges. A unique experiential learning methodology is applied in all courses and has been found to be very effective. The shared vision of founders was realized when they established an institute in Uganda which has been steadily progressing over the past 13 years. EAPCI is a professional counseling institute registered with the Registrar of Companies (number 119844) in Uganda.
@@ -13,7 +14,7 @@
 
 
 
-  <div class="relative bg-bgwhite p-10 md:p20 text-justify font-pop">
+  <div class="relative bg-bgwhite p-10 md:p-20 text-justify font-pop">
     <div class="container mx-auto">
       <h2 class="text-3xl  text-center md:text-left p-3 my-5  font-yesava w-full border-b-2 border-black text-black">Our Story and Mission</h2>  <p class="text-gray-700 text-lg leading-relaxed mb-8">
         EAPCI stays at the forefront of holistic mental health services in Uganda and the Great Lakes Region by constantly incorporating new techniques and skills. We've provided psychosocial counseling services to organizations like Communication for Development Foundation Uganda (CDFU), Reproductive Health Uganda (RH Uganda), and World Vision International Uganda. Currently, we support the Ministry of Gender Labour and Social Development's Gender Unit and the SATI child helpline, as well as Kampala Medical Chambers' mental health clinic hospital.
@@ -65,7 +66,7 @@
     <div class="grid md:grid-cols-2 gap-10">
     <div class="relative grid-rows-2">
         <img src="{{ asset('images/jpg/aboutbg.jpg') }}" alt="Campus Image 1" class="w-full h-96 object-cover rounded-lg mb-4 object-center">
-        <h1 class="absolute top-10 left-10 z-10 text-2xl md:text-3xl font-bold text-center p-5 rounded-xl backdrop-blur-sm text-white drop-shadow-sm border-white border">Our Campus</h1>
+        <h1 class="absolute left-2 top-2 sm:top-5 sm:left-5 z-10 text-2xl md:text-3xl font-bold text-center p-4 mr-2 sm:mr-5 rounded-xl backdrop-blur-sm text-white drop-shadow-sm border-white border">Our Campus</h1>
         <div><h2 class="text-2xl font-bold mb-2">Campus Building 1</h2>
         {{-- <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> --}}
       </div>

@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'serbg': 'url("/public/images/jpg/serbg.jpg")',
+        'aboutbg': 'url("/public/images/jpg/aboutbg.jpg")',
       },
       colors: {
         headblue: '#24B4E8',

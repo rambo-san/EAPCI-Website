@@ -99,7 +99,7 @@
 <div class="flex justify bg-bgwhite h-max w-full py-10 md:p-10 ">  
   <div class="flex flex-col w-full justify-between lg:flex-row">
     <div class="h-max p-10 lg:w-1/2">
-      <h1 class="lg:text-left text-4xl  text-center font-yesava" >Short Course</h1>
+      <h1 class="lg:text-left text-4xl  text-center font-yesava" >Short Courses</h1>
         <p class="text-lg pt-6 flex-1 text-justify font-pop">
           Empower yourself and elevate your career with our comprehensive short courses in counseling and clinical psychology. Designed for professionals across various settings, these courses provide focused learning opportunities that equip you with essential skills and knowledge to make a meaningful difference in people's lives. Our offerings include Developing Counseling Skills for Professionals, Mental Health Psycho-social Support (MHPSS), and Mental Health, Substance Abuse, and Addiction. Each course integrates practical exercises and real-world case studies, ensuring you can confidently apply what you learn in your professional context.
         </p>

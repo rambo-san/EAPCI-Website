@@ -175,7 +175,7 @@
           
           </div>
         </div>
-        <div  class="flex flex-wrap items-center justify-center mx-auto p-1 bg-headblue pt-4 sm:justify-center sm:pt-0 font-yesava"> 
+        <div  class="flex flex-wrap items-center justify-center mx-auto p-2 bg-headblue sm:justify-center font-yesava"> 
             <span class="text-sm text-white sm:text-center dark:text-gray-400">© 2024 <a href="/" class="hover:underline">EAPCI</a>. All Rights Reserved.
             </span>
         </div>
