@@ -132,9 +132,9 @@
         <hr class="border-b-8 border-darkblue sm:mx-auto dark:border-darkblue" />
         <div class="justify-between w-full p-4 py-6 lg:py-8">
             <div class="mx-10 md:mx-20 md:flex md:justify-between">
-                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                <div class="grid grid-cols-2 gap-8 sm:gap-10 ">
                  <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">PAGES</h2>
+                      <h2 class="mb-6 text-lg font-bold text-darkblue uppercase dark:text-white">PAGES</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                           <li class="mb-2">
                               <a href="/" class="hover:underline">HOME</a>
@@ -151,7 +151,7 @@
                       </ul>
                   </div>
                   <div>
-                      <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">SOCIAL</h2>
+                      <h2 class="mb-6 text-lg font-bold text-darkblue uppercase dark:text-white">SOCIAL</h2>
                       <ul class="text-gray-500 dark:text-gray-400 font-medium">
                           <li class="mb-4">
                               <a href="https://www.facebook.com/eastafricaprofessionalcounsellinginstitute/" class="hover:underline ">FACEBOOK</a>
@@ -159,7 +159,7 @@
                       </ul>
                   </div>
               </div> 
-              <div class="my-6 w-full md:ml-10 lg:w-max  md:my-0 text-justify font-pop">
+              <div class="my-6 w-max max-w-full md:ml-10 lg:w-max  md:my-0 text-justify font-pop">
                         <h2 class="mb-3 text-xl font-bold text-darkblue uppercase dark:text-white">Contact</h2>
                         <ul class="text-darkblue dark:text-gray-400 font-medium sm:block mb-5">
                             <li><span>Plot 73 Buganda Road,</span></li>
