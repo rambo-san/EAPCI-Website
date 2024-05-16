@@ -16,14 +16,15 @@
   {{-- mainend --}}
 
   {{-- briefstart --}}
-      <div class="flex justify bg-headblue h-max w-full pb-20 md:px-10 border-b-8 border-darkblue pt-20">  
+      <div class="flex justify bg-headblue h-max w-full pb-20 md:px-10 border-b-8 border-darkblue pt-10">  
         <div class="flex flex-col w-full justify-between lg:flex-row">
           <div class="relative hidden md:flex bg-center h-96 mx-10 lg:w-1/2 lg:h-full inset-0 overflow-hidden flex-row items-center justify-center ">
             <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.6/build/spline-viewer.js"></script>
-<spline-viewer loading-anim-type="spinner-big-dark" url="https://prod.spline.design/WXUOhRmm1mYcCL3s/scene.splinecode"></spline-viewer>
-            {{-- <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 hover:grayscale hover:scale-125 hover:opacity-80"> --}}
+<spline-viewer loading-anim-type="spinner-big-dark" url="https://prod.spline.design/WXUOhRmm1mYcCL3s/scene.splinecode" class="drop-shadow-xl scale-125 lg:scale-100" alt="Hello world"></spline-viewer>
+          <div class="absolute h-1/6 w-full bg-headblue bottom-0 z-10"></div>            
+{{-- <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 hover:grayscale hover:scale-125 hover:opacity-80"> --}}
           </div>
-            <div class="h-max p-10 lg:w-1/2">
+            <div class="h-max p-10 lg:pr-10 lg:pl-0 lg:w-1/2">
               <h1 class="lg:text-left text-4xl  text-center font-yesava" >What is EAPCI?</h1>
               <p class="text-lg pt-6 flex-1 text-justify font-pop">
                 The East African Professional Counselling Institute (EAPCI) was established in 2010 by counselling and clinical psychologists from Uganda and Kenya to address shared psychosocial challenges in the region. Registered in Uganda (number 119844), EAPCI employs a unique experiential learning methodology that has proven highly effective. Over the past 13 years, EAPCI has provided a comprehensive range of mental health services, including training, clinical counselling supervision, and stress management. Their collaborations with organizations such as World Vision International Uganda and the Ministry of Gender, Labour and Social Development highlight their impact. EAPCI also offers specialized services such as psychoeducation, sexual and gender-based violence counselling, mindful breathing exercises, and financial literacy training.               
@@ -45,6 +46,7 @@
         </div>
     </div>
   {{-- briefend --}}  
+
   
  {{-- carousalmv --}}
 <div id="animation-carousel" class="relative  w-full  border-b-8 border-darkblue" data-carousel="static">
@@ -55,15 +57,15 @@
         <img src="{{asset('images/carousal/caro1.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale blur-sm" alt="...">
         <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
             <h1 class="text-4xl md:text-7xl text-center font-yesava text-bgwhite drop-shadow-md">Our Vision</h1>
-            <p class="w-3/4 text-2xl md:text-3xl text-center font-yesava text-bgwhite mt-5 drop-shadow-md">Empowering individuals to achieve mental well-being and thrive in their lives, fostering a society where mental health is prioritized and supported.</p>
+            <p class="w-3/4 text-xl md:text-3xl text-center font-yesava text-bgwhite mt-5 drop-shadow-md">Empowering individuals to achieve mental well-being and thrive in their lives, fostering a society where mental health is prioritized and supported.</p>
         </div>
     </div>
     <!-- Item 2 -->
     <div class="hidden duration-200 ease-linear" data-carousel-item>
         <img src="{{asset('images/carousal/caro2.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale blur-sm" alt="...">
         <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-            <h1 class="text-4xl md:text-7xl text-center font-yesava text-bgwhite drop-shadow-md">Our Mission</h1>
-            <p class="w-3/4 text-2xl md:text-3xl text-center font-yesava text-bgwhite mt-5 drop-shadow-md">Delivering accessible, compassionate mental health services that promote awareness, resilience, and holistic healing for individuals of all backgrounds. We strive to ensure that everyone has the support they need to navigate life's challenges and thrive mentally and emotionally.</p>
+            <h1 class="text-4xl md:text-7xl text-center font-yesava text-bgwhite drop-shadow-2xl">Our Mission</h1>
+            <p class="w-3/4 text-base sm:text-xl md:text-3xl text-center font-yesava text-bgwhite mt-5 drop-shadow-md">Delivering accessible, compassionate mental health services that promote awareness, resilience, and holistic healing for individuals of all backgrounds. We strive to ensure that everyone has the support they need to navigate life's challenges and thrive mentally and emotionally.</p>
         </div>
     </div>
 </div>
