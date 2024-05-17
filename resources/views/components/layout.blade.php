@@ -16,7 +16,7 @@
     {{-- end preloader --}}
 
     <!--Navbar Start-->
-    <div  class=" py-2  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue"> 
+    <div  class=" py-2 relative  flex flex-wrap items-center justify-between mx-auto p-1 bg-headblue z-20"> 
         <div class="flex space-x-4 ml-auto mx-20 sm:justify-center ">
             <a href="https://www.facebook.com/eastafricaprofessionalcounsellinginstitute/" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                 <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
