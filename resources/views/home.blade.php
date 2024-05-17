@@ -18,7 +18,7 @@
   {{-- briefstart --}}
       <div class="flex justify bg-headblue h-max w-full pb-20 md:px-10 border-b-8 border-darkblue ">  
         <div class="flex flex-col w-full justify-between lg:flex-row">
-          <div class="relative hidden lg:flex h-96 mx-10 lg:w-1/3 lg:h-full inset-0 overflow-hidden flex-row items-center justify-center ">
+          <div class="relative hidden lg:flex h-96 mx-10 lg:w-1/3 lg:h-full inset-0 overflow-hidden flex-row items-center justify-center">
             <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.6/build/spline-viewer.js"></script>
 {{-- <spline-viewer loading-anim-type="spinner-big-dark" url="https://prod.spline.design/WXUOhRmm1mYcCL3s/scene.splinecode" class="drop-shadow-xl scale-125 lg:scale-100" alt="Hello world"></spline-viewer> --}}
 <iframe src='https://my.spline.design/untitled-1a584040f217364b56a9d9956595c2eb/' frameborder='0' width='100%' height='100%' class="drop-shadow-xl scale-125" alt="EAPCI"></iframe>          
@@ -93,13 +93,13 @@
         <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop">
           Empower yourself and elevate your career with our comprehensive short courses in counseling and clinical psychology. Designed for professionals across various settings, these courses provide focused learning opportunities that equip you with essential skills and knowledge to make a meaningful difference in people's lives. Our offerings include Developing Counseling Skills for Professionals, Mental Health Psycho-social Support (MHPSS), and Mental Health, Substance Abuse, and Addiction. Each course integrates practical exercises and real-world case studies, ensuring you can confidently apply what you learn in your professional context.
         </p>
-          <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop">
+          <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop hidden xl:block">
 Additionally, our specialized courses cover areas such as Sexual and Gender-Based Violence Prevention, Marriage and Family Therapy, Child and Adolescent Mental Health, and Trauma-Informed Care. Whether you're looking to refine your clinical skills with expert supervision or explore the integration of spirituality in family therapy, our programs are designed to meet your needs. By participating in these courses, you will enhance your ability to support clients effectively, promote mental well-being, and contribute to community resilience, all while advancing your professional development.
         </p>
         <a href="courses" ><button class="bg-darkblue border-4 border-coreblue rounded-xl p-4 text-bgwhite text-xl font-bold  mt-10 max-w-max  hover:text-darkblue hover:bg-bgwhite duration-300 ease-in-out font-pop">Know More</button>
         </a>
     </div>
-    <div class="relative hidden sm:inline bg-center h-96 mx-10 lg:w-1/2 md:h-3/4 mt-20 rounded-xl shadow-xl contrast-125 bg-darkblue group-hover:opacity-100 inset-0 overflow-hidden border-b-8 border-r-8 hover:border-b-4 hover:border-r-4 border-darkblue transition duration-600">
+    <div class="relative hidden sm:inline bg-center h-96 mx-10 lg:w-1/2 lg:h-3/4 mt-20 rounded-xl shadow-xl contrast-125 bg-darkblue group-hover:opacity-100 inset-0 overflow-hidden">
       <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 grayscale hover:grayscale-0 hover:scale-125 hover:opacity-80">
       </div>
   </div>
