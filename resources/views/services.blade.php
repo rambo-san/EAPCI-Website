@@ -1,41 +1,19 @@
 <x-layout>
     @section('title', 'EAPCI-Services')
     {{-- mainstart --}}
-    {{-- <div class="w-full relative bg-cover h-max" style="background-image:url({{asset('images/jpg/serbg.jpg')}})">
-          <div class="flex justify-left">
-            <div class="md:w-1/2">
-            </div>
-            <div class="relative md:w-2/3 text-left px-10 md:px-20 mt-20 ">
-              <div class="relative bg-slate-400 h-full w-full z-10">
-
-              </div>
-              <p class="absolute text-lg md:text-xl text-gray-700">
-                <strong class="text-emerald-400">Feeling overwhelmed? Seeking clarity? Navigating life's challenges?</strong><br> Our multidimensional and comprehensive counseling, clinical, and psychiatric services offer a safe and supportive space where you can discover your inner strength and build a fulfilling life. Come and meet our highly qualified and experienced Counseling Psychologists, Clinical Psychologists, and Psychiatrists at East African Professional Counseling Institute Limited Uganda.
-              </p>
-            </div>
-          </div>
-
-      <div class="relative mt-20">
-        <img src="{{asset('images/svg/cwave.svg')}}" alt="" class="w-full">
-        
-        <div class="absolute inset-0 flex flex-col justify-center items-center font-semibold italic text-darkblue"> 
-            <h1 class="text-xl sm:text-2xl md:text-4xl text-center">“Confidentiality is Guaranteed”</h1>
-        </div>
-    
-  </div>
-</div> --}}
-<div class="min-h-max bg-cover bg-fixed bg-serbg bg-top ">
-  {{-- <img src="{{asset('images/jpg/serbg.jpg')}}" alt="cover image" class="w-full h-full object-top object-cover align-top "> --}}
-  <div class="relative h-full">
-  <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent mix-blend-normal"></div>
-    <p class="absolute text-xs sm:text-base md:text:xl text-bgwhite m-10 md:mx-0 md:right-20 bottom-52 md:bottom-0 md:top-0 bg-darkblue h-max md:w-5/12 rounded-md p-10 backdrop-blur-lg opacity-70 font-pop">
-      <strong class="text-lime-500 drop-shadow-sm">Feeling overwhelmed? Seeking clarity? Navigating life's challenges?</strong><br><span class="flex text-justify pt-2">Our multidimensional and comprehensive counseling, clinical, and psychiatric services offer a safe and supportive space where you can discover your inner strength and build a fulfilling life. Come and meet our highly qualified and experienced Counseling Psychologists, Clinical Psychologists, and Psychiatrists at East African Professional Counseling Institute Limited Uganda.
-      </span>
-    </p>
-    <div class="absolute bg-bgwhite rounded-t-3xl w-full h-52 bottom-0 z-10"> 
-      <h1 class="absolute inset-10 text-lg sm:text-2xl md:text-4xl text-center font-semibold italic text-darkblue drop-shadow-xl">“Confidentiality is Guaranteed”</h1> 
-</div>
-</div>
+    <div class="h-[calc(100vh-6rem)] bg-cover bg-fixed bg-serbg bg-top">
+      {{-- <img src="{{asset('images/jpg/serbg.jpg')}}" alt="cover image" class="w-full h-full object-top object-cover align-top "> --}}
+      <div class="relative h-full">
+      <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent mix-blend-normal"></div>
+        <p class="absolute text-xs sm:text-base md:text:xl text-bgwhite m-10 md:mx-0 md:right-20 bottom-28 md:bottom-0 md:top-0 bg-darkblue h-max md:w-5/12 rounded-md p-10 backdrop-blur-lg opacity-70 font-pop">
+          <strong class="text-lime-500 drop-shadow-sm">Feeling overwhelmed? Seeking clarity? Navigating life's challenges?</strong><br><span class="flex text-justify pt-2">Our multidimensional and comprehensive counseling, clinical, and psychiatric services offer a safe and supportive space where you can discover your inner strength and build a fulfilling life. Come and meet our highly qualified and experienced Counseling Psychologists, Clinical Psychologists, and Psychiatrists at East African Professional Counseling Institute Limited Uganda.
+          </span>
+        </p>
+        <div class="absolute bg-bgwhite rounded-t-3xl w-full h-24 bottom-0 z-10"> 
+          <h1 class="relative inset-y-1/4 my-auto text-lg sm:text-2xl md:text-4xl text-center font-semibold italic text-darkblue drop-shadow-xl">“Confidentiality is Guaranteed”</h1> 
+    </div>
+    </div>
+    </div>
 {{-- mainend --}}
     
         <!-- New section starts here -->
