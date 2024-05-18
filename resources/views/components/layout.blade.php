@@ -38,9 +38,10 @@
             </a> --}}
         </div>
 </div>
+{{-- navbar --}}
 <nav class=" sticky top-0 w-full z-40 border-gray-200 bg-coreblue dark:bg-gray-800 dark:border-gray-700" id="navbar">
     
-    <div class="flex flex-wrap items-center justify-between mx-auto p-5 px-20">
+    <div class="flex flex-wrap items-center justify-between mx-auto p-5 px-10 md:px-20">
         
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <span class="self-center text-3xl font-bold whitespace-nowrap text-darkblue font-pop hover:text-activeblack">EAPCI</span>

@@ -1,6 +1,14 @@
 {
+  "public/images/jpg/aboutbg.jpg": {
+    "file": "assets/aboutbg-CiOQXarD.jpg",
+    "src": "public/images/jpg/aboutbg.jpg"
+  },
+  "public/images/jpg/serbg.jpg": {
+    "file": "assets/serbg-6UbmR1sc.jpg",
+    "src": "public/images/jpg/serbg.jpg"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-rXh8uF46.css",
+    "file": "assets/app-CgehQ3wl.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
