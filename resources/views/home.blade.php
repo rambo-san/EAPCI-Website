@@ -1,14 +1,14 @@
 <x-layout>
   @section('title') {{'EAPCI-Home'}} @endsection
   {{-- mainstart --}}
-  <div class="relative min-h-[calc(100vh-110px)] h-max bg-gradient-to-tl from-gray-100 to-white">
+  <div class="relative min-h-[calc(100dvh-110px)] h-max bg-gradient-to-tl from-gray-100 to-white">
     <div class="pt-20 pb-10 px-10 md:px-20 w-full md:w-3/4 lg:w-2/3 z-10">
     <h1 class="relative text-3xl sm:text-4xl md:text-6xl md:text-left font-bold text-black z-10 font-yesava">East African Professional Counselling Institute</h1>
-    <p class="relative mt-4 text-base italic md:text-2xl text-black text-right z-20 pr-10 md:pr-20">“Life skills at hand”</p>
+    <p class="relative mt-4 text-base italic md:text-2xl text-black text-right z-20 pr-10 md:pr-20 font-pop">“Life skills at hand”</p>
   </div>
     <div class="absolute w-full h-2/5 lg:h-1/2 mt-10 sm:mt-20 md:mt-32 lg:mt-52 bottom-0">
-    <img src="{{asset('images/svg/basebanner.svg')}}" alt="" class="md:p-0 absolute md:right-10 bottom-20 md:w-2/3 lg:w-1/2 z-0">
-    <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="" class="absolute w-full bottom-20  z-20">
+    <img src="{{asset('images/svg/basebanner.svg')}}" alt="bannerfont" class="md:p-0 absolute md:right-10 bottom-20 md:w-2/3 lg:w-1/2 z-0">
+    <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="banner" class="absolute w-full bottom-20  z-20">
     <div class="absolute h-20 w-full bg-headblue bottom-0"></div>
     </div>
     
@@ -21,12 +21,12 @@
           <div class="relative hidden lg:flex h-96 mx-10 lg:w-1/3 lg:h-full inset-0 overflow-hidden flex-row items-center justify-center">
             <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.6/build/spline-viewer.js"></script>
 {{-- <spline-viewer loading-anim-type="spinner-big-dark" url="https://prod.spline.design/WXUOhRmm1mYcCL3s/scene.splinecode" class="drop-shadow-xl scale-125 lg:scale-100" alt="Hello world"></spline-viewer> --}}
-<iframe src='https://my.spline.design/untitled-1a584040f217364b56a9d9956595c2eb/' frameborder='0' width='100%' height='100%' class="drop-shadow-xl scale-125" alt="EAPCI"></iframe>          
+<iframe src='https://my.spline.design/untitled-1a584040f217364b56a9d9956595c2eb/' frameborder='0' width='100%' height='100%' class="drop-shadow-xl scale-125" ></iframe>          
 <div class="absolute h-1/6 w-full bg-headblue bottom-0 z-10"></div>            
 {{-- <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 hover:grayscale hover:scale-125 hover:opacity-80"> --}}
           </div>
             <div class="h-max p-10  lg:w-2/3 ">
-              <h1 class="lg:text-left text-4xl  text-center font-yesava" >What is EAPCI?</h1>
+              <h1 class="lg:text-left text-2xl md:text-4xl  text-center font-yesava" >What is EAPCI?</h1>
               <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop">
                 The East African Professional Counselling Institute (EAPCI) was established in 2010 by counselling and clinical psychologists from Uganda and Kenya to address shared psychosocial challenges in the region. Registered in Uganda (number 119844), EAPCI employs a unique experiential learning methodology that has proven highly effective. Over the past 13 years, EAPCI has provided a comprehensive range of mental health services, including training, clinical counselling supervision, and stress management. Their collaborations with organizations such as World Vision International Uganda and the Ministry of Gender, Labour and Social Development highlight their impact. EAPCI also offers specialized services such as psychoeducation, sexual and gender-based violence counselling, mindful breathing exercises, and financial literacy training.</p>               
                 <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop hidden xl:block">
@@ -89,7 +89,7 @@
 <div class="flex justify bg-bgwhite h-max w-full py-10 md:p-10 ">  
   <div class="flex flex-col w-full justify-between lg:flex-row">
     <div class="h-max p-10 lg:w-1/2">
-      <h1 class="lg:text-left text-4xl  text-center font-yesava" >Short Courses</h1>
+      <h1 class="lg:text-left text-2xl md:text-4xl  text-center font-yesava" >Short Courses</h1>
         <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop">
           Empower yourself and elevate your career with our comprehensive short courses in counseling and clinical psychology. Designed for professionals across various settings, these courses provide focused learning opportunities that equip you with essential skills and knowledge to make a meaningful difference in people's lives. Our offerings include Developing Counseling Skills for Professionals, Mental Health Psycho-social Support (MHPSS), and Mental Health, Substance Abuse, and Addiction. Each course integrates practical exercises and real-world case studies, ensuring you can confidently apply what you learn in your professional context.
         </p>
