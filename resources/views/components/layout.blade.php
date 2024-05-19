@@ -6,7 +6,8 @@
     <title> @yield('title') </title>
     @vite(['resources/css/app.css','resources/js/app.js'])
     <link rel="icon" href="{{asset('images/png/logo.png')}}" type="image/x-icon">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body class="overflow-x-hidden"> {{--  add overflow-x-hidden to prevent horizontal scrolling --}}
     {{-- preloader --}}
@@ -95,6 +96,7 @@
 
         {{-- Script for scroll --}}
             <script>
+                AOS.init();
                 window.onscroll = function() {scrollFunction()};
 
                 function scrollFunction() {
