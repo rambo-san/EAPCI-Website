@@ -3,11 +3,11 @@
   {{-- mainstart --}}
   <div class="relative min-h-[calc(100dvh-110px)] h-max bg-gradient-to-tl from-gray-100 to-white">
     <div class="pt-20 pb-10 px-10 md:px-20 w-full md:w-3/4 lg:w-2/3 z-10">
-    <h1 class="relative text-3xl sm:text-4xl md:text-6xl md:text-left font-bold text-black z-10 font-yesava">East African Professional Counselling Institute</h1>
-    <p class="relative mt-4 text-base italic md:text-2xl text-black text-right z-20 pr-10 md:pr-20 font-pop">“Life skills at hand”</p>
+    <h1 class="relative text-3xl sm:text-4xl md:text-6xl md:text-left font-bold text-black z-10 font-yesava" data-aos="fade-right" data-aos-duration="2000">East African Professional Counselling Institute</h1>
+    <p class="relative mt-4 text-base italic md:text-2xl text-black text-right z-20 pr-10 md:pr-20 font-pop" data-aos="fade-right" data-aos-duration="2000">“Life skills at hand”</p>
   </div>
     <div class="absolute w-full h-2/5 lg:h-1/2 mt-10 sm:mt-20 md:mt-32 lg:mt-52 bottom-0">
-    <img src="{{asset('images/svg/basebanner.svg')}}" alt="bannerfont" class="md:p-0 absolute md:right-10 bottom-20 md:w-2/3 lg:w-1/2 z-0">
+    <img src="{{asset('images/svg/basebanner.svg')}}" alt="bannerfont" class="md:p-0 absolute md:right-10 bottom-20 md:w-2/3 lg:w-1/2 z-0" data-aos="fade-up" data-aos-duration="2000">
     <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="banner" class="absolute w-full bottom-20  z-20">
     <div class="absolute h-20 w-full bg-headblue bottom-0"></div>
     </div>
@@ -25,7 +25,7 @@
 <div class="absolute h-1/6 w-full bg-headblue bottom-0 z-10"></div>            
 {{-- <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 hover:grayscale hover:scale-125 hover:opacity-80"> --}}
           </div>
-            <div class="h-max p-10  lg:w-2/3 ">
+            <div class="h-max p-10  lg:w-2/3 overflow-x-hidden" data-aos="zoom-in-up" data-aos-duration="100">
               <h1 class="lg:text-left text-2xl md:text-4xl  text-center font-yesava" >What is EAPCI?</h1>
               <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop">
                 The East African Professional Counselling Institute (EAPCI) was established in 2010 by counselling and clinical psychologists from Uganda and Kenya to address shared psychosocial challenges in the region. Registered in Uganda (number 119844), EAPCI employs a unique experiential learning methodology that has proven highly effective. Over the past 13 years, EAPCI has provided a comprehensive range of mental health services, including training, clinical counselling supervision, and stress management. Their collaborations with organizations such as World Vision International Uganda and the Ministry of Gender, Labour and Social Development highlight their impact. EAPCI also offers specialized services such as psychoeducation, sexual and gender-based violence counselling, mindful breathing exercises, and financial literacy training.</p>               
@@ -47,7 +47,7 @@
     <!-- Item 1 -->
     <div class="hidden duration-200 ease-linear" data-carousel-item>
         <img src="{{asset('images/carousal/caro1.jpg')}}" class="absolute inset-0 w-full h-full object-cover grayscale blur-sm" alt="...">
-        <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-white" >
           <div class="absolute w-full h-full bg-darkblue opacity-15" ></div>
             <h1 class="text-4xl md:text-7xl text-center font-yesava text-bgwhite drop-shadow-md">Our Vision</h1>
             <p class="w-3/4 text-xl md:text-3xl text-center font-yesava text-bgwhite mt-5 drop-shadow-md">Empowering individuals to achieve mental well-being and thrive in their lives, fostering a society where mental health is prioritized and supported.</p>
@@ -88,7 +88,7 @@
 {{-- shortcourse brief --}}
 <div class="flex justify bg-bgwhite h-max w-full py-10 md:p-10 overflow-hidden">  
   <div class="flex flex-col w-full justify-between lg:flex-row">
-    <div class="h-max p-10 lg:w-1/2"  data-aos="fade-right" data-aos-duration="1000">
+    <div class="h-max p-10 lg:w-1/2"  data-aos="fade-right" data-aos-duration="1000"  data-aos-once="true">
       <h1 class="lg:text-left text-2xl md:text-4xl  text-center font-yesava" >Short Courses</h1>
         <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop">
           Empower yourself and elevate your career with our comprehensive short courses in counseling and clinical psychology. Designed for professionals across various settings, these courses provide focused learning opportunities that equip you with essential skills and knowledge to make a meaningful difference in people's lives. Our offerings include Developing Counseling Skills for Professionals, Mental Health Psycho-social Support (MHPSS), and Mental Health, Substance Abuse, and Addiction. Each course integrates practical exercises and real-world case studies, ensuring you can confidently apply what you learn in your professional context.
@@ -99,7 +99,7 @@ Additionally, our specialized courses cover areas such as Sexual and Gender-Base
         <a href="courses" ><button class="bg-darkblue border-4 border-coreblue rounded-xl p-4 text-bgwhite text-xl font-bold  mt-10 max-w-max  hover:text-darkblue hover:bg-bgwhite duration-300 ease-in-out font-pop">Know More</button>
         </a>
     </div>
-    <div class="relative hidden sm:inline bg-center h-96 mx-10 lg:w-1/2 lg:h-3/4 mt-20 rounded-xl shadow-xl contrast-125 bg-darkblue group-hover:opacity-100 inset-0 overflow-hidden" data-aos="fade-left" data-aos-duration="2000">
+    <div class="relative hidden sm:inline bg-center h-96 mx-10 lg:w-1/2 lg:h-3/4 mt-20 rounded-xl shadow-xl contrast-125 bg-darkblue group-hover:opacity-100 inset-0 overflow-hidden" data-aos="fade-left" data-aos-duration="1000"  data-aos-once="true">
       <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 grayscale hover:grayscale-0 hover:scale-125 hover:opacity-80">
       </div>
   </div>

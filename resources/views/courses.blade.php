@@ -59,7 +59,7 @@
 <div class="flex justify bg-bgwhite h-max w-full py-10 md:p-10 ">
   <div class="flex flex-col w-full justify-between lg:flex-row">
     <div class="h-max p-10">
-      <h1 class="lg:text-left text-3xl md:text-4xl mb-10 text-center font-yesava" >Explore Our Short Counseling and Clinical Psychology Courses</h1>
+      <h1 class="lg:text-left text-2xl md:text-4xl mb-10 text-center font-yesava" >Explore Our Short Counseling and Clinical Psychology Courses</h1>
         <p class="text-lg flex-1 text-justify font-pop">
           Are you a mental health professional or someone working in a related field seeking to expand your knowledge and skillset? Do you yearn to make a positive impact on the lives of others? Our comprehensive selection of short courses in counseling and clinical psychology provides focused learning opportunities designed to meet your specific needs. Whether you're looking to master core counseling skills, delve deeper into specialized areas like child mental health or trauma-informed care, or gain practical tools for supporting clients facing diverse challenges, we have the right course for you.  Through interactive learning methods and expert instruction, you'll gain the knowledge and confidence to elevate your practice and make a real difference in the lives of those you serve.
         </p>
@@ -71,7 +71,7 @@
 
   {{--Courses as Button Start --}}
 <div class="h-max w-full px-10 md:px-20 font-pop">
-  <h1 class="lg:text-left text-3xl md:text-4xl text-center font-yesava py-5" >Courses Offered by us</h1>
+  <h1 class="lg:text-left text-2xl md:text-4xl text-center font-yesava py-5" >Courses Offered by us</h1>
   <div  class="flex h-max text-justify" >
     <p class="text-lg flex-1 text-justify font-pop">Empower yourself and elevate your career with our comprehensive selection of short courses in counseling and clinical psychology. Designed for busy professionals, these focused learning opportunities equip you with the knowledge and skills to make a real difference in the lives of your clients. Explore various areas like core counseling skills, child mental health, trauma-informed care, and more. Invest in your professional growth and become a more effective practitioner.</p>
   </div>
