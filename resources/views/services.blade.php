@@ -17,11 +17,11 @@
 {{-- mainend --}}
     
         <!-- New section starts here -->
-        <div class=" text-left px-10 md:px-20 pb-10 md:pb-20  bg-bgwhite font-pop text-base md:text-md lg:text-lg">
+        <div class="text-left px-10 md:px-20 pb-10 md:pb-20  bg-bgwhite font-pop text-base md:text-md lg:text-lg">
           {{-- how we can empower --}}
           <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 mb-10 font-yesava">Here's how we can empower you:</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue">
-            <div class="group  rounded-md overflow-hidden shadow-md relative">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue  overflow-hidden">
+            <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up-right" data-aos-duration="1000">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
                 <img src="{{asset('images/jpg/ser1.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
@@ -33,7 +33,7 @@
                   </div>
               </div>
           </div>
-            <div class="group  rounded-md overflow-hidden shadow-md relative">
+            <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up" data-aos-duration="1000">
                 <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
                   <img src="{{asset('images/jpg/ser2.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
                 </div>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="group  rounded-md overflow-hidden shadow-md relative">
+            <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up-left" data-aos-duration="1000">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
                 <img src="{{asset('images/jpg/ser3.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
@@ -60,8 +60,8 @@
         </div>
         {{-- additonal benefits --}}
         <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 my-10 font-yesava">We offer additional benefits:</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue">
-          <div class="group  rounded-md overflow-hidden shadow-md relative">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue overflow-hidden">
+          <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up-right" data-aos-duration="1000">
             <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
               <img src="{{asset('images/jpg/ser4.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
             </div>
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </div>
-          <div class="group  rounded-md overflow-hidden shadow-md relative">
+          <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up" data-aos-duration="1000">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
                 <img src="{{asset('images/jpg/ser5.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
@@ -86,7 +86,7 @@
                   </div>
               </div>
           </div>
-          <div class="group  rounded-md overflow-hidden shadow-md relative">
+          <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up-left" data-aos-duration="1000">
             <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
               <img src="{{asset('images/jpg/ser6.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
             </div>
@@ -106,7 +106,8 @@
 
       <div class="w-full px-10 md:px-20 pb-20 font-pop sm:text-justify  drop-shadow-xl" style="
       background-color: rgb(17, 94, 89);
-      background-image: radial-gradient(at 15% 14%, rgb(31, 41, 55) 0, transparent 100%), radial-gradient(at 8% 76%, rgb(8, 145, 178) 0, transparent 85%), radial-gradient(at 92% 14%, rgb(55, 65, 81) 0, transparent 37%), radial-gradient(at 27% 48%, rgb(41, 37, 36) 0, transparent 65%), radial-gradient(at 23% 28%, rgb(15, 23, 42) 0, transparent 31%);">
+      background-image: radial-gradient(at 15% 14%, rgb(31, 41, 55) 0, transparent 100%), radial-gradient(at 8% 76%, rgb(8, 145, 178) 0, transparent 85%), radial-gradient(at 92% 14%, rgb(55, 65, 81) 0, transparent 37%), radial-gradient(at 27% 48%, rgb(41, 37, 36) 0, transparent 65%), radial-gradient(at 23% 28%, rgb(15, 23, 42) 0, transparent 31%);"
+       data-aos="fade-up" data-aos-duration="1000">
         <h2 class="text-2xl  text-center text-bgwhite py-10 font-yesava drop-shadow-xl">Step Forward For A Well-being Journey: Service Descriptions</h2>
         <ul class="service-list grid grid-cols-1 md:grid-cols-2 gap-4">
           <li class="service-item py-4 px-6 rounded-lg shadow-xl hover:shadow-[3px_3px_7px_#000000] transition duration-300 ease-in-out">
