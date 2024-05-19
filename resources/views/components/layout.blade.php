@@ -94,6 +94,15 @@
 
     {{$slot}}
 
+        <script>
+            AOS.init({  // initialize AOS library (todo: convert from CDN to NPM package)
+                    once:true,
+                });
+            var preloader = document.getElementById('preloader'); 
+                window.addEventListener('load', function(){ 
+                    preloader.style.display = 'none';
+                });
+        </script>
     <!--Body End-->
 
     <!--Footer Start-->

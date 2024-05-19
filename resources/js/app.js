@@ -1,8 +1,6 @@
 import './bootstrap';
 import 'flowbite';
-                AOS.init({  // initialize AOS library (todo: convert from CDN to NPM package)
-                    once:true,
-                });
+                
                  window.onscroll = function() {scrollFunction()}; // call scrollFunction when user scrolls
 
                 function scrollFunction() {
@@ -21,10 +19,7 @@ import 'flowbite';
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                 }
                 //preloader
-                var preloader = document.getElementById('preloader'); 
-                window.addEventListener('load', function(){ 
-                    preloader.style.display = 'none';
-                });
+                
                 setInterval(() => {
                     document.querySelector('[data-carousel-next]').click();
                 }, 4000);
