@@ -1,4 +1,4 @@
-<html lang="en" class="scroll-smooth scroll-pt-28">
+<html lang="en" class="scroll-smooth scroll-pt-36">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
