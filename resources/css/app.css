@@ -4,23 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Hide the default scrollbar */
+/* custom scrollbar */
 ::-webkit-scrollbar {
     width: 16px;
 }
-    
-/* Track */
 ::-webkit-scrollbar-track {
     background: linear-gradient(to top, #9ADBEF, #FFFFFF);
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #1E363F;
     border-radius: 16px 0px 0px 16px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #2C6173;
 }

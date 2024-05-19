@@ -94,7 +94,7 @@
     
     {{-- Courses as Description Start --}}
     <div class="mx-10 md:mx-20">
-      <div id="course1" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+      <div id="course1" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
           <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Developing Counseling Skills for Professionals: Theory and Practice</h2>
           <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
               <div class="text-gray-700">
@@ -105,7 +105,7 @@
               </div>
           </div>
       </div>
-      <div id="course2" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+      <div id="course2" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
           <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Mental Health Psycho-social Support (MHPSS)</h2>
           <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
               <div class="text-gray-700">
@@ -116,7 +116,7 @@
               </div>
           </div>
       </div>
-      <div id="course3" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+      <div id="course3" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
           <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Mental Health, Substance Abuse and Addiction</h2>
           <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
               <div class="text-gray-700">
@@ -127,7 +127,7 @@
               </div>
           </div>
       </div>
-      <div id="course4" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+      <div id="course4" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
           <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Sexual and Gender Based Violence Prevention Response and Management</h2>
           <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
               <div class="text-gray-700">
@@ -138,7 +138,7 @@
               </div>
           </div>
       </div>
-      <div id="course5" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+      <div id="course5" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Marriage and Family Therapy</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -149,7 +149,7 @@
             </div>
         </div>
     </div>
-    <div id="course6" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+    <div id="course6" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Child and Adolescent Mental Health Challenges and Support Approaches</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -160,7 +160,7 @@
             </div>
         </div>
     </div>
-    <div id="course7" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+    <div id="course7" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Clinical Counseling Supervision</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -171,7 +171,7 @@
             </div>
         </div>
     </div>
-    <div id="course8" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+    <div id="course8" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Psycho-Spiritual and Family Therapies</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -182,7 +182,7 @@
             </div>
         </div>
     </div>
-    <div id="course9" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+    <div id="course9" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Crisis Intervention and Suicide Prevention</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">
@@ -193,7 +193,7 @@
             </div>
         </div>
     </div>
-    <div id="course10" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" data-aos-once="true">
+    <div id="course10" class="w-full h-max text-justify md:p-5 my-5 rounded-lg hover:shadow-[34px_34px_68px_#b6ccd3,-34px_-34px_68px_#f6ffff] transition duration-300 ease-in-out font-pop"  data-aos="flip-up" data-aos-duration="300" >
         <h2 class="text-center md:text-left text-lg sm:text-xl md:text-2xl font-bold mb-5 border-activeblack border-b-2 p-1">Trauma Informed Care</h2>
         <div class="flex flex-col text-lg space-y-4 px-4 pb-4">
             <div class="text-gray-700">

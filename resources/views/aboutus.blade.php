@@ -37,13 +37,13 @@
 
   <div class="p-10 md:p-20 bg-gradient-to-t from-darkblue to-bgwhite text-justify overflow-x-hidden">
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div class=" rounded-lg p-5 shadow-2xl text-bgwhite bg-darkblue hover:shadow-[3px_3px_7px_#2C6173] transition duration-300 ease-in-out" data-aos="fade-right" data-aos-duration="1000"  data-aos-once="true">
+      <div class=" rounded-lg p-5 shadow-2xl text-bgwhite bg-darkblue hover:shadow-[3px_3px_7px_#2C6173] transition duration-300 ease-in-out" data-aos="fade-right" data-aos-duration="1000"  >
         <h3 class="text-2xl font-bold mb-4">EAPCI Niche</h3>
         <p class="text-base leading-relaxed mb-4 italic">
           EAPCI brings expertise in mental health and psychosocial support, relevant in the East African Region, the Great Lakes Region, and across many sectors in Government, Business Organizations, and Higher institutions of education to assist in analysis, benchmarking, and problem-solving. EAPCI consultants are well-grounded in theory and practice in their areas of expertise and armed with confidentiality, i.e. they approach a project from both systems and reality perspective. EAPCI understands schedules, budgets, and timelines, and is committed to completing projects on time and within the budget framework. Their services have been made available to their clients in a confidential environment and available 24/7 and accessible by telephone, e-mail, and other electronic means.
         </p>
       </div>
-        <div class="bg-bgwhite border border-gray-200 rounded-lg p-8 shadow-2xl hover:shadow-[3px_3px_7px_#2C6173] transition duration-300 ease-in-out" data-aos="fade-left" data-aos-duration="1000"  data-aos-once="true">
+        <div class="bg-bgwhite border border-gray-200 rounded-lg p-8 shadow-2xl hover:shadow-[3px_3px_7px_#2C6173] transition duration-300 ease-in-out" data-aos="fade-left" data-aos-duration="1000"  >
           <h3 class="text-2xl font-bold text-black mb-4">Core Values</h3>
           <ul class="list-disc text-black ml-4 italic">
             <li>Confidentiality</li>

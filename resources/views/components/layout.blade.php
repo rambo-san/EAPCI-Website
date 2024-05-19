@@ -1,4 +1,4 @@
-<html lang="en" class="scroll-smooth scroll-pt-36">
+<html lang="en" class="scroll-smooth scroll-pt-28">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -94,35 +94,6 @@
 
     {{$slot}}
 
-        {{-- Script for scroll --}}
-            <script>
-                AOS.init();
-                window.onscroll = function() {scrollFunction()};
-
-                function scrollFunction() {
-                    var button = document.getElementById('moveToTopButton');
-                    var nav = document.getElementById('navbar');
-                    if (window.scrollY > 20) {
-                        button.classList.remove('hidden');
-                        nav.classList.add('drop-shadow-xl');
-                    } else {
-                        button.classList.add('hidden');
-                        nav.classList.remove('drop-shadow-xl');
-                    }
-                }
-
-                function scrollToTop() {
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                }
-
-                var preloader = document.getElementById('preloader');
-                window.addEventListener('load', function(){
-                    preloader.style.display = 'none';
-                });
-
-
-            </script>
-        {{-- End Script for scroll --}}
     <!--Body End-->
 
     <!--Footer Start-->

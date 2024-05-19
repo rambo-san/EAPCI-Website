@@ -88,7 +88,7 @@
 {{-- shortcourse brief --}}
 <div class="flex justify bg-bgwhite h-max w-full py-10 md:p-10 overflow-hidden">  
   <div class="flex flex-col w-full justify-between lg:flex-row">
-    <div class="h-max p-10 lg:w-1/2"  data-aos="fade-right" data-aos-duration="1000"  data-aos-once="true">
+    <div class="h-max p-10 lg:w-1/2"  data-aos="fade-right" data-aos-duration="1000"  >
       <h1 class="lg:text-left text-2xl md:text-4xl  text-center font-yesava" >Short Courses</h1>
         <p class="text-base md:text-lg pt-6 flex-1 text-justify font-pop">
           Empower yourself and elevate your career with our comprehensive short courses in counseling and clinical psychology. Designed for professionals across various settings, these courses provide focused learning opportunities that equip you with essential skills and knowledge to make a meaningful difference in people's lives. Our offerings include Developing Counseling Skills for Professionals, Mental Health Psycho-social Support (MHPSS), and Mental Health, Substance Abuse, and Addiction. Each course integrates practical exercises and real-world case studies, ensuring you can confidently apply what you learn in your professional context.
@@ -99,20 +99,11 @@ Additionally, our specialized courses cover areas such as Sexual and Gender-Base
         <a href="courses" ><button class="bg-darkblue border-4 border-coreblue rounded-xl p-4 text-bgwhite text-xl font-bold  mt-10 max-w-max  hover:text-darkblue hover:bg-bgwhite duration-300 ease-in-out font-pop">Know More</button>
         </a>
     </div>
-    <div class="relative hidden sm:inline bg-center h-96 mx-10 lg:w-1/2 lg:h-3/4 mt-20 rounded-xl shadow-xl contrast-125 bg-darkblue group-hover:opacity-100 inset-0 overflow-hidden" data-aos="fade-left" data-aos-duration="1000"  data-aos-once="true">
+    <div class="relative hidden sm:inline bg-center h-96 mx-10 lg:w-1/2 lg:h-3/4 mt-20 rounded-xl shadow-xl contrast-125 bg-darkblue group-hover:opacity-100 inset-0 overflow-hidden" data-aos="fade-left" data-aos-duration="1000"  >
       <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 grayscale hover:grayscale-0 hover:scale-125 hover:opacity-80">
       </div>
   </div>
 </div>
 {{-- shortcourse brief --}}
-
-
-<script>
-  setInterval(() => {
-      document.querySelector('[data-carousel-next]').click();
-  }, 4000);
-</script>
-
-
   
 </x-layout>
