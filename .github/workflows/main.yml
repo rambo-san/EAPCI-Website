@@ -17,6 +17,6 @@ jobs:
           echo "${{ secrets.SSH_SECRET }}" > ~/.ssh/id_rsa
           ssh-keyscan -H ${{ secrets.HOST }} > ~/.ssh/known_hosts
       - name: "Connect and pull"
-        run: ssh ${{ secrets.USER }}@${{ secrets.HOST }} "touch success.txt"
+        run: ssh cicd@144.24.154.232 "touch success.txt"
       - name: "Clean up"
         run: rm -rf ~/.ssh
