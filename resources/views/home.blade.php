@@ -11,7 +11,15 @@
     <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="banner" class="absolute w-full bottom-20  z-20">
     <div class="absolute h-20 w-full bg-headblue bottom-0"></div>
     </div>
-    
+    {{-- <div class="align-bottom flex flex-col">
+      <div class="bottom-auto">
+        <div class="relative w-full h-2/5 lg:h-1/2 mt-10 text-right" >
+            <img src="{{asset('images/svg/basebanner.svg')}}" alt="bannerfont" class="md:p-0 -inset-x-1/2 md:w-2/3 lg:w-1/2 z-0 inline-block" data-aos="fade-up" data-aos-duration="2000">
+            <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="banner" class="absolute bottom-20 w-full  z-20">
+            <div class="relative h-20 w-full bg-headblue "></div>
+        </div>
+      </div>
+    </div> --}}
   </div>
   {{-- mainend --}}
 
