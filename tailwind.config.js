@@ -13,8 +13,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'serbg': 'url("/public/images/jpg/serbg.jpg")',
-        'aboutbg': 'url("/public/images/jpg/aboutbg.jpg")',
+        'serbg': 'url("/public/images/webp/serbg.webp")',
+        'aboutbg': 'url("/public/images/webp/aboutbg.webp")',
       },
       colors: {
         headblue: '#24B4E8',

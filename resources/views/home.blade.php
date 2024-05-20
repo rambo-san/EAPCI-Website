@@ -100,7 +100,7 @@ Additionally, our specialized courses cover areas such as Sexual and Gender-Base
         </a>
     </div>
     <div class="relative hidden sm:inline bg-center h-96 mx-10 lg:w-1/2 lg:h-3/4 mt-20 rounded-xl shadow-xl contrast-125 bg-darkblue group-hover:opacity-100 inset-0 overflow-hidden" data-aos="fade-left" data-aos-duration="1000"  >
-      <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 grayscale hover:grayscale-0 hover:scale-125 hover:opacity-80">
+      <img src="{{asset('images/webp/random2.webp')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 grayscale hover:grayscale-0 hover:scale-125 hover:opacity-80">
       </div>
   </div>
 </div>

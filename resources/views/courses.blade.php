@@ -8,23 +8,23 @@
   <div class="relative w-full h-96 lg:h-2/3 overflow-hidden rounded-b-lg bg-darkblue">
     <!-- Item 1 -->
     <div class="hidden duration-200 ease-linear opacity-70 " data-carousel-item>
-        <img src="{{asset('images/coursecarousal/caro1.jpg')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
+        <img src="{{asset('images/webp/caro1.webp')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
     </div>
     <!-- Item 2 -->
     <div class="hidden duration-200 ease-linear opacity-70" data-carousel-item>
-        <img src="{{asset('images/coursecarousal/caro2.jpg')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
+        <img src="{{asset('images/webp/caro2.webp')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
     </div>
     <!-- Item 3 -->
     <div class="hidden duration-200 ease-linear opacity-70" data-carousel-item>
-        <img src="{{asset('images/coursecarousal/caro3.jpg')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
+        <img src="{{asset('images/webp/caro3.webp')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
     </div>  
     <!-- Item 4 -->
     <div class="hidden duration-200 ease-linear opacity-70" data-carousel-item>
-        <img src="{{asset('images/coursecarousal/caro4.jpg')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
+        <img src="{{asset('images/webp/caro4.webp')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
     </div>
     <!-- Item 5 -->
     <div class="hidden duration-200 ease-linear opacity-70" data-carousel-item>
-      <img src="{{asset('images/coursecarousal/caro5.jpg')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
+      <img src="{{asset('images/webp/caro5.webp')}}" class="absolute inset-0 w-full h-full object-cover " alt="...">
   </div>
   <h1 class="relative text-3xl md:text-6xl text-center top-[40%] font-yesava text-white drop-shadow-md mix-blend-luminosity">Upskill and Make a Difference</h1>
 </div>  

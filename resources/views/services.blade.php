@@ -2,7 +2,7 @@
     @section('title', 'EAPCI-Services')
     {{-- mainstart --}}
     <div class="h-[calc(100vh-6rem)] bg-cover bg-fixed bg-serbg bg-top">
-      {{-- <img src="{{asset('images/jpg/serbg.jpg')}}" alt="cover image" class="w-full h-full object-top object-cover align-top "> --}}
+      {{-- <img src="{{asset('images/webp/serbg.webp')}}" alt="cover image" class="w-full h-full object-top object-cover align-top "> --}}
       <div class="relative h-full">
       <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent mix-blend-normal"></div>
         <p class="absolute text-xs sm:text-base md:text:xl text-bgwhite m-10 md:mx-0 md:right-20 bottom-28 md:bottom-0 md:top-0 bg-darkblue h-max md:w-5/12 rounded-md p-10 backdrop-blur-lg opacity-70 font-pop">
@@ -23,7 +23,7 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue  overflow-hidden">
             <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up-right" data-aos-duration="1000">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
-                <img src="{{asset('images/jpg/ser1.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+                <img src="{{asset('images/webp/ser1.webp')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
               <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                   <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Conquer emotional challenges</p>
@@ -35,7 +35,7 @@
           </div>
             <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up" data-aos-duration="1000">
                 <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
-                  <img src="{{asset('images/jpg/ser2.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+                  <img src="{{asset('images/webp/ser2.webp')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
                 </div>
                 <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                     <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Navigate life transitions</p>
@@ -47,7 +47,7 @@
             </div>
             <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up-left" data-aos-duration="1000">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
-                <img src="{{asset('images/jpg/ser3.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+                <img src="{{asset('images/webp/ser3.webp')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
               <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                   <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Gain deeper understanding</p>
@@ -63,7 +63,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue overflow-hidden">
           <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up-right" data-aos-duration="1000">
             <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
-              <img src="{{asset('images/jpg/ser4.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+              <img src="{{asset('images/webp/ser4.webp')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
             </div>
             <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                 <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">A diverse team of qualified professionals</p>
@@ -76,7 +76,7 @@
         </div>
           <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up" data-aos-duration="1000">
               <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
-                <img src="{{asset('images/jpg/ser5.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+                <img src="{{asset('images/webp/ser5.webp')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
               </div>
               <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                   <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Flexible scheduling and modalities</p>
@@ -88,7 +88,7 @@
           </div>
           <div class="group  rounded-md overflow-hidden shadow-md relative"  data-aos="fade-up-left" data-aos-duration="1000">
             <div class="bg-darkblue group-hover:bg-gradient-to-t from-black to-darkblue transition duration-300 ease-in-out absolute inset-0 z-0 w-full h-full ">
-              <img src="{{asset('images/jpg/ser6.jpg')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
+              <img src="{{asset('images/webp/ser6.webp')}}" alt="mental health" class="w-full h-full object-cover opacity-50  group-hover:scale-110 transition duration-300">
             </div>
             <div class="p-4 text-center relative group-hover:text-bgwhite h-full drop-shadow-xl m-auto flex items-center justify-center">
                 <p class="text-xl md:text-2xl lg:text-4xl font-bold group-hover:hidden drop-shadow-2xl">Culturally sensitive and inclusive environment</p>
