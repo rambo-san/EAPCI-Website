@@ -5,7 +5,7 @@
       {{-- <img src="{{asset('images/webp/serbg.webp')}}" alt="cover image" class="w-full h-full object-top object-cover align-top "> --}}
       <div class="relative h-full">
       <div class="absolute inset-0 bg-gradient-to-t from-black to-transparent mix-blend-normal"></div>
-        <p class="absolute text-xs sm:text-base md:text:xl text-bgwhite m-10 md:mx-0 md:right-20 bottom-28 md:bottom-0 md:top-0 bg-darkblue h-max md:w-5/12 rounded-md p-10 backdrop-blur-lg opacity-70 font-pop">
+        <p class="absolute text-xs sm:text-base md:text:xl text-bgwhite m-10 md:mx-0 md:right-20 bottom-28 md:bottom-0 md:top-0 bg-darkblue h-max md:w-5/12 rounded-md p-10 backdrop-blur-lg opacity-70 font-pop test">
           <strong class="text-lime-500 drop-shadow-sm">Feeling overwhelmed? Seeking clarity? Navigating life's challenges?</strong><br><span class="flex text-justify pt-2">Our multidimensional and comprehensive counseling, clinical, and psychiatric services offer a safe and supportive space where you can discover your inner strength and build a fulfilling life. Come and meet our highly qualified and experienced Counseling Psychologists, Clinical Psychologists, and Psychiatrists at East African Professional Counseling Institute Limited Uganda.
           </span>
         </p>
@@ -14,10 +14,57 @@
     </div>
     </div>
     </div>
+    <style>
+      
+      @media only screen and (orientation: landscape) and (max-height: 500px) and (min-width: 1200px) {
+        .test{
+         top:-30px;
+         left:0px;
+
+         font-size: 14px;
+         width: 95%;
+         padding: 1%;
+         
+        }
+      }
+      @media only screen and (orientation: landscape) and (max-height: 500px) {
+        .test{
+         top:-30px;
+         margin-left: 2%;
+         font-size: 14px;
+         width: 95%;
+         padding: 1%;
+        }
+      }
+     
+      
+      @media only screen and (orientation: landscape) and (min-width:768px) and (max-width:900px) and (min-height: 590px) and (max-height: 660px) {
+        .test{
+          width: 75%;
+        }
+      }
+      @media only screen and (orientation: landscape) and (min-width:768px) and (max-width: 900px) and (max-height: 590px) {
+        .test{
+          width: 75%;
+        }
+      }
+      
+        @media only screen and (orientation: landscape) and (min-width:901px) and (max-width: 1200px) and (max-height: 660px) {
+        .test{
+          width: 60%;
+        }
+      }
+      @media only screen and (orientation: landscape) and (max-width: 417px) {
+        .test{
+         display: none;
+         
+        }
+      }
+    </style>
 {{-- mainend --}}
     
         <!-- New section starts here -->
-        <div class="text-left px-10 md:px-20 pb-10 md:pb-20  bg-bgwhite font-pop text-base md:text-md lg:text-lg">
+        <div class="text-left px-10 md:px-20 pb-10 md:pb-20  bg-bgwhite font-pop text-base md:text-md lg:text-lg testing_bottom">
           {{-- how we can empower --}}
           <h2 class="text-center md:text-left text-2xl md:text-4xl font-bold text-gray-800 mb-10 font-yesava">Here's how we can empower you:</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-56 text-coreblue  overflow-hidden">
