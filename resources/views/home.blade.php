@@ -3,12 +3,12 @@
   {{-- mainstart --}}
   <div class="relative min-h-[calc(100dvh-110px)] h-max bg-gradient-to-tl from-gray-100 to-white">
     <div class="pt-20 pb-10 px-10 md:px-20 w-full md:w-3/4 lg:w-2/3 z-10">
-    <h1 class="relative text-3xl sm:text-4xl md:text-6xl md:text-left font-bold text-black z-10 font-yesava" data-aos="fade-right" data-aos-duration="2000">East African Professional Counselling Institute</h1>
-    <p class="relative mt-4 text-base italic md:text-2xl text-black text-right z-20 pr-10 md:pr-20 font-pop" data-aos="fade-right" data-aos-duration="2000">“Life skills at hand”</p>
+    <h1 class="relative text-3xl sm:text-4xl md:text-6xl md:text-left font-bold text-black z-10 font-yesava text1" data-aos="fade-right" data-aos-duration="2000">East African Professional Counselling Institute</h1>
+    <p class="relative mt-4 text-base italic md:text-2xl text-black text-right z-20 pr-10 md:pr-20 font-pop text2" data-aos="fade-right" data-aos-duration="2000">“Life skills at hand”</p>
   </div>
     <div class="absolute w-full h-2/5 lg:h-1/2 mt-10 sm:mt-20 md:mt-32 lg:mt-52 bottom-0">
     <img src="{{asset('images/svg/basebanner.svg')}}" alt="bannerfont" class="md:p-0 absolute md:right-10 bottom-20 md:w-2/3 lg:w-1/2 z-0" data-aos="fade-up" data-aos-duration="2000">
-    <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="banner" class="absolute w-full bottom-20  z-20">
+    <img src="{{asset('images/svg/bannerimg2.svg')}}" alt="banner" class="absolute w-full bottom-20   bannerblue">
     <div class="absolute h-20 w-full bg-headblue bottom-0"></div>
     </div>
     {{-- <div class="align-bottom flex flex-col">
@@ -30,7 +30,7 @@
             <script type="module" src="https://unpkg.com/@splinetool/viewer@1.3.6/build/spline-viewer.js"></script>
 {{-- <spline-viewer loading-anim-type="spinner-big-dark" url="https://prod.spline.design/WXUOhRmm1mYcCL3s/scene.splinecode" class="drop-shadow-xl scale-125 lg:scale-100" alt="Hello world"></spline-viewer> --}}
 <iframe src='https://my.spline.design/untitled-1a584040f217364b56a9d9956595c2eb/' frameborder='0' width='100%' height='100%' class="drop-shadow-xl scale-125" ></iframe>          
-<div class="absolute h-1/6 w-full bg-headblue bottom-0 z-10"></div>            
+{{-- <div class="absolute h-1/6 w-full bg-headblue bottom-0 z-10"></div>             --}}
 {{-- <img src="{{asset('images/jpg/random2.jpg')}}" alt="image" class="absolute top-0 left-0 w-full h-full rounded-xl object-cover  group-hover:scale-[101%] transition duration-300 opacity-70 hover:grayscale hover:scale-125 hover:opacity-80"> --}}
           </div>
             <div class="h-max p-10  lg:w-2/3 overflow-x-hidden" data-aos="zoom-in-up" data-aos-duration="100">
